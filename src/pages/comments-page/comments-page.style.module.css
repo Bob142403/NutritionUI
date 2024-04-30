@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.commentInfo {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+.avatar {
+  background-color: #fde3cf;
+  color: #f56a00;
+}

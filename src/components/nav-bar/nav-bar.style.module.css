@@ -1,0 +1,14 @@
+.logoImage {
+  width: 20px;
+  height: 20px;
+}
+.logoTitle {
+  margin: 0;
+  word-break: normal;
+}
+
+.modalWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

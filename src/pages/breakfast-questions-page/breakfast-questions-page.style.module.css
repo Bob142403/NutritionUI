@@ -1,0 +1,17 @@
+.container {
+  margin: 20px;
+  margin-top: 0;
+  height: 100%;
+  min-width: 350px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}

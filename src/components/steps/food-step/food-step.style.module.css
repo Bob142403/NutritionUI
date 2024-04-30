@@ -1,0 +1,9 @@
+.firstQuestion {
+  display: flex;
+  flex-direction: column;
+}
+.checkboxList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

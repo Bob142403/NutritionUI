@@ -1,0 +1,86 @@
+export const districts = [
+  {
+    list_name: "district",
+    name: "a.jomi",
+    "label::English": "A.Jomi",
+    "label::Tajik": "A.ҷоми",
+  },
+  {
+    list_name: "district",
+    name: "vakhsh",
+    "label::English": "Vakhsh",
+    "label::Tajik": "Вахш",
+  },
+  {
+    list_name: "district",
+    name: "dusti",
+    "label::English": "Dusti",
+    "label::Tajik": "Дусти",
+  },
+  {
+    list_name: "district",
+    name: "shahritus",
+    "label::English": "Shahritus",
+    "label::Tajik": "Шаҳритус",
+  },
+  {
+    list_name: "district",
+    name: "yovon",
+    "label::English": "Yovon",
+    "label::Tajik": "Ёвон",
+  },
+  {
+    list_name: "district",
+    name: "j.balhi",
+    "label::English": "J.Balhi",
+    "label::Tajik": "Ҷ.Балхӣ",
+  },
+  {
+    list_name: "district",
+    name: "jayhun",
+    "label::English": "Jayhun",
+    "label::Tajik": "Ҷайҳун",
+  },
+  {
+    list_name: "district",
+    name: "khuroson",
+    "label::English": "Khuroson",
+    "label::Tajik": "Хуросон",
+  },
+  {
+    list_name: "district",
+    name: "levakant",
+    "label::English": "Levakant",
+    "label::Tajik": "Левакант",
+  },
+  {
+    list_name: "district",
+    name: "nosiri khisrav",
+    "label::English": "Nosiri Khisrav",
+    "label::Tajik": "Носири Хисрав",
+  },
+  {
+    list_name: "district",
+    name: "qubodiyon",
+    "label::English": "Qubodiyon",
+    "label::Tajik": "Қубодиён",
+  },
+  {
+    list_name: "district",
+    name: "kushoniyon",
+    "label::English": "Kushoniyon",
+    "label::Tajik": "Кушониён",
+  },
+  {
+    list_name: "district",
+    name: "dushanbe",
+    "label::English": "Dushanbe",
+    "label::Tajik": "Душанбе",
+  },
+  {
+    list_name: "district",
+    name: "bokhtar",
+    "label::English": "Bokhtar",
+    "label::Tajik": "Бохтар",
+  },
+];
