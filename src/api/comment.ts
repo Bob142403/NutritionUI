@@ -1,7 +1,7 @@
 import { CommentType } from "../types/Comment";
 import { request } from "./fetch/request";
 
-const baseURL = "http://localhost:5001/comment";
+const baseURL = "https://nutritionback.onrender.com/comment";
 
 export const commentApi = {
   // insert: async (category: any) =>

@@ -21,8 +21,8 @@ import { ToolsContext } from "../../provider/ToolsProvider";
 import { language } from "../../lang/lang";
 
 import { SignUpFieldsType } from "../../types/SignUpFields";
-import { useQuery } from "react-query";
-import { jsonServertApi } from "../../api/json-server";
+
+import { districts } from "../../data/district/District";
 
 dayjs.extend(customParseFormat);
 
@@ -36,9 +36,6 @@ export const SignUp = () => {
   // ---------------------------------------------------------------------------
   // variables
   // ---------------------------------------------------------------------------
-
-  const { data } = useQuery("getDistrict", jsonServertApi.getDistrict);
-  const districts = data || [];
 
   const [loading, setLoading] = useState<boolean>(false);
   const { token } = useToken();

@@ -1,6 +1,6 @@
 import { request } from "./fetch/request";
 
-const baseURL = "http://localhost:5001";
+const baseURL = "https://nutritionback.onrender.com";
 
 export const breakFastApi = {
   async getProducts(): Promise<[]> {

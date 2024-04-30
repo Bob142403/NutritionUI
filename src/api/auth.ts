@@ -1,7 +1,7 @@
 import { SignUpFieldsType } from "../types/SignUpFields";
 import { request } from "./fetch/request";
 
-const baseURL = "http://localhost:5001";
+const baseURL = "https://nutritionback.onrender.com";
 
 interface Login {
   username: string;
