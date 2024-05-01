@@ -12,9 +12,9 @@ export const groupsName: Groups[] = [
   "group8",
   "group9",
   "group10",
-  "group11",
-  "group12",
-  "group13",
+  // "group11",
+  // "group12",
+  // "group13",
 ];
 
 export const defaultCategory: CategoryContextType = {
@@ -28,9 +28,9 @@ export const defaultCategory: CategoryContextType = {
   group8: 0,
   group9: 0,
   group10: 0,
-  group11: 0,
-  group12: 0,
-  group13: 0,
+  // group11: 0,
+  // group12: 0,
+  // group13: 0,
 };
 
 export const concatCategory = (

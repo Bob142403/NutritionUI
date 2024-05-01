@@ -117,40 +117,40 @@ export const Categories: CategoryType[] = [
     Products_uz:
       "тарбуз, олуча, гелос, дулона, себ, ангур, банан, мандарин, апелсин, нок, анор, клубника, хурмо, хуч, олу (слива), тут, санҷид, лимон, чёрная смородина, мавиз, дигар",
   },
-  {
-    id_group: "g11",
-    Name_of_group: "11. Unhealthy foods - Sweet food",
-    Products:
-      "chocolates, cakes, cookies, wet halva, sesame halva, simalak, nisholo, sunflower seeds-halva, sweets (sugar sand, sugar cubes), jam, Bun, \nhoney, ice cream, Other32",
-    Name_of_10_group_tj: "11. Хӯрокҳои носолим - Хӯроки ширин",
-    Products_tj:
-      "шоколадҳо, тортҳо, печенье, ҳавлои тар, ҳавлои кунҷитӣ, сималак, нишоло, ҳавлои семечка, ширинӣ (қанд, шакар), мураббо, кулчақанд, асал, яхмос, дигар",
-    Name_of_10_group_uz: "11. Хӯрокҳои носолим - Хӯроки ширин",
-    Products_uz:
-      "шоколадҳо, тортҳо, печенье, ҳавлои тар, ҳавлои кунҷитӣ, сималак, нишоло, ҳавлои семечка, ширинӣ (қанд, шакар), мураббо, кулчақанд, асал, яхмос, дигар",
-  },
-  {
-    id_group: "g12",
-    Name_of_group:
-      "12. Other relevant food groups (other oil and fats+condiments and seasoning)",
-    Products:
-      "oil, fat, butter, buttock, margarine, Column33, hot pepper, pepper, Zeroboy, flavorings, herbs, bay leaf, cumin, iodized salt, Other34",
-    Name_of_10_group_tj:
-      "12. Дигар гурўҳҳои дахлдори хўрокворӣ (дигар равғанҳо, приправаҳо специҳои равғанӣ (равған+ҳанут)",
-    Products_tj:
-      "равған, чарбу, равғани маска, думба, маргарин, дигар, қаланфури тез, мурч, зверобой, хушбӯкунадаҳо, гиёҳҳо, лавровый лист, зира, намаки йоднок, дигар",
-    Name_of_10_group_uz:
-      "12. Дигар гурўҳҳои дахлдори хўрокворӣ (дигар равғанҳо, приправаҳо специҳои равғанӣ (равған+ҳанут)",
-    Products_uz:
-      "равған, чарбу, равғани маска, думба, маргарин, дигар, қаланфури тез, мурч, зверобой, хушбӯкунадаҳо, гиёҳҳо, лавровый лист, зира, намаки йоднок, дигар",
-  },
-  {
-    id_group: "g13",
-    Name_of_group: "13. Drinks",
-    Products: "tea, coffee, compote, juice",
-    Name_of_10_group_tj: "13. Нӯшокиҳо",
-    Products_tj: "чой, кофе, компот, шарбат (сок) ",
-    Name_of_10_group_uz: "13. Нӯшокиҳо",
-    Products_uz: "чой, кофе, компот, шарбат (сок) ",
-  },
+  // {
+  //   id_group: "g11",
+  //   Name_of_group: "11. Unhealthy foods - Sweet food",
+  //   Products:
+  //     "chocolates, cakes, cookies, wet halva, sesame halva, simalak, nisholo, sunflower seeds-halva, sweets (sugar sand, sugar cubes), jam, Bun, \nhoney, ice cream, Other32",
+  //   Name_of_10_group_tj: "11. Хӯрокҳои носолим - Хӯроки ширин",
+  //   Products_tj:
+  //     "шоколадҳо, тортҳо, печенье, ҳавлои тар, ҳавлои кунҷитӣ, сималак, нишоло, ҳавлои семечка, ширинӣ (қанд, шакар), мураббо, кулчақанд, асал, яхмос, дигар",
+  //   Name_of_10_group_uz: "11. Хӯрокҳои носолим - Хӯроки ширин",
+  //   Products_uz:
+  //     "шоколадҳо, тортҳо, печенье, ҳавлои тар, ҳавлои кунҷитӣ, сималак, нишоло, ҳавлои семечка, ширинӣ (қанд, шакар), мураббо, кулчақанд, асал, яхмос, дигар",
+  // },
+  // {
+  //   id_group: "g12",
+  //   Name_of_group:
+  //     "12. Other relevant food groups (other oil and fats+condiments and seasoning)",
+  //   Products:
+  //     "oil, fat, butter, buttock, margarine, Column33, hot pepper, pepper, Zeroboy, flavorings, herbs, bay leaf, cumin, iodized salt, Other34",
+  //   Name_of_10_group_tj:
+  //     "12. Дигар гурўҳҳои дахлдори хўрокворӣ (дигар равғанҳо, приправаҳо специҳои равғанӣ (равған+ҳанут)",
+  //   Products_tj:
+  //     "равған, чарбу, равғани маска, думба, маргарин, дигар, қаланфури тез, мурч, зверобой, хушбӯкунадаҳо, гиёҳҳо, лавровый лист, зира, намаки йоднок, дигар",
+  //   Name_of_10_group_uz:
+  //     "12. Дигар гурўҳҳои дахлдори хўрокворӣ (дигар равғанҳо, приправаҳо специҳои равғанӣ (равған+ҳанут)",
+  //   Products_uz:
+  //     "равған, чарбу, равғани маска, думба, маргарин, дигар, қаланфури тез, мурч, зверобой, хушбӯкунадаҳо, гиёҳҳо, лавровый лист, зира, намаки йоднок, дигар",
+  // },
+  // {
+  //   id_group: "g13",
+  //   Name_of_group: "13. Drinks",
+  //   Products: "tea, coffee, compote, juice",
+  //   Name_of_10_group_tj: "13. Нӯшокиҳо",
+  //   Products_tj: "чой, кофе, компот, шарбат (сок) ",
+  //   Name_of_10_group_uz: "13. Нӯшокиҳо",
+  //   Products_uz: "чой, кофе, компот, шарбат (сок) ",
+  // },
 ];

@@ -12,9 +12,9 @@ export interface CategoryContextType {
   group8: number;
   group9: number;
   group10: number;
-  group11: number;
-  group12: number;
-  group13: number;
+  // group11: number;
+  // group12: number;
+  // group13: number;
 }
 
 export type Groups =
@@ -27,7 +27,7 @@ export type Groups =
   | "group7"
   | "group8"
   | "group9"
-  | "group10"
-  | "group11"
-  | "group12"
-  | "group13";
+  | "group10";
+// | "group11"
+// | "group12"
+// | "group13"
