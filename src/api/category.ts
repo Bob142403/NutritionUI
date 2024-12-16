@@ -1,7 +1,7 @@
 import { CategoryContextType } from "../types/Category";
 import { request } from "./fetch/request";
 
-const baseURL = "https://nutritionback.onrender.com/category";
+const baseURL = "https://nutritionback-lsmy.onrender.com/category";
 
 export const categoryApi = {
   insert: async (category: CategoryContextType) =>

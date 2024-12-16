@@ -1,19 +1,13 @@
-import { request } from "./fetch/request";
-
-const baseURL = "https://nutritionback.onrender.com";
+import qwe from "../../json/db.json";
 
 export const dinnerApi = {
   async getProducts(): Promise<[]> {
-    return (
-      await request(baseURL + `/dinner/products`).then((res) => res.json())
-    ).dinnerproduct;
+    return Promise.resolve(qwe.DinnerProduct) as any;
   },
   async getGroups(): Promise<[]> {
-    return (await request(baseURL + `/dinner/groups`).then((res) => res.json()))
-      .dinnergroup;
+    return Promise.resolve(qwe.DinnerGroup) as any;
   },
   async getFoods(): Promise<[]> {
-    return (await request(baseURL + `/dinner/foods`).then((res) => res.json()))
-      .dinnerfood;
+    return Promise.resolve(qwe.DinnerFood) as any;
   },
 };

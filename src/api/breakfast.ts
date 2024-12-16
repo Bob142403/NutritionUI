@@ -1,21 +1,15 @@
-import { request } from "./fetch/request";
-
-const baseURL = "https://nutritionback.onrender.com";
+import qwe from "../../json/db.json";
+import { BreakFastProductType } from "../types/breakfast/BreakFastProduct";
+import { BreakFastGroupType } from "../types/breakfast/BreakFastGroup";
 
 export const breakFastApi = {
-  async getProducts(): Promise<[]> {
-    return (
-      await request(baseURL + `/breakfast/products`).then((res) => res.json())
-    ).breakfastproduct;
+  getProducts(): BreakFastProductType[] {
+    return qwe.Product;
   },
-  async getGroups(): Promise<[]> {
-    return (
-      await request(baseURL + `/breakfast/groups`).then((res) => res.json())
-    ).breakfastgroup;
+  async getGroups(): Promise<BreakFastGroupType[]> {
+    return Promise.resolve(qwe.BreakfastGroup);
   },
   async getFoods(): Promise<[]> {
-    return (
-      await request(baseURL + `/breakfast/foods`).then((res) => res.json())
-    ).breakfastfood;
+    return Promise.resolve(qwe.Food) as any;
   },
 };

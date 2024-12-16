@@ -1,6 +1,6 @@
 import { request } from "./fetch/request";
 
-const baseURL = "https://nutritionback.onrender.com/feedback";
+const baseURL = "https://nutritionback-lsmy.onrender.com/feedback";
 
 export const feedbackApi = {
   insert: async (feedback: { formId: string | undefined; feedback: string }) =>

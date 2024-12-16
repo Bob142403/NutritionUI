@@ -2,9 +2,12 @@ import { useEffect, useState } from "react";
 import { breakFastApi } from "../api/breakfast";
 import { BreakFastProductType } from "../types/breakfast/BreakFastProduct";
 import { BreakFastFoodType } from "../types/breakfast/BreakFastFood";
+import { BreakFastGroupType } from "../types/breakfast/BreakFastGroup";
 
 export const useBreakFastGroup = () => {
-  const [breakFastGroup, setBreakFastGroup] = useState([]);
+  const [breakFastGroup, setBreakFastGroup] = useState<BreakFastGroupType[]>(
+    []
+  );
 
   useEffect(() => {
     getData();
@@ -34,14 +37,16 @@ export const useBreakFastFood = (): BreakFastFoodType[] => {
 };
 
 export const useBreakFastProduct = (): BreakFastProductType[] => {
-  const [breakFastProduct, setBreakFastProduct] = useState([]);
+  const [breakFastProduct, setBreakFastProduct] = useState<
+    BreakFastProductType[]
+  >([]);
 
   useEffect(() => {
     getData();
   }, []);
 
   async function getData() {
-    setBreakFastProduct(await breakFastApi.getProducts());
+    setBreakFastProduct(breakFastApi.getProducts());
   }
   return breakFastProduct;
 };
