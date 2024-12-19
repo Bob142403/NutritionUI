@@ -45,9 +45,10 @@ export const RatingPage = () => {
         {
           label: "Dataset 1",
           data: allCategory.map((category) => {
-            return groupsName
-              .slice(0, groupsName.length - 3)
-              .reduce((prev, value) => prev + +!!category[value], 0);
+            return groupsName.reduce(
+              (prev, value) => prev + +!!+category[value],
+              0
+            );
           }),
           borderColor: "rgb(255, 99, 132)",
           backgroundColor: "rgba(255, 99, 132, 0.5)",

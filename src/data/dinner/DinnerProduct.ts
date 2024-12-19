@@ -2,7 +2,265 @@ import { DinnerProductType } from "../../types/dinner/DinnerProduct";
 
 export const DinnerProduct: DinnerProductType[] = [
   {
-    list_name: "DinnerProduct",
+    name: "d_milk",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    DinnerFood: "d_flour_porridge",
+  },
+  {
+    name: "d_butter",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    DinnerFood: "d_flour_porridge",
+  },
+  {
+    name: "d_flour",
+    "label::English": "flour",
+    "label::Tajik": "орд",
+    "label::Uzbek": "un",
+    DinnerFood: "d_flour_porridge",
+  },
+  {
+    name: "d_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_flour_porridge",
+  },
+  {
+    name: "d_tea1",
+    "label::English": "tea",
+    "label::Tajik": "чой",
+    "label::Uzbek": "choy",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_nut",
+    "label::English": "nut",
+    "label::Tajik": "чормағз",
+    "label::Uzbek": "yongoq",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_milk_shirchoy",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_butter_shirchoy",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_mint1",
+    "label::English": "peppermint",
+    "label::Tajik": "пудина",
+    "label::Uzbek": "yalpiz",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_other_shirchoy",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "d_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_sweet_pepper",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_tomatoes",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_egg",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_oil",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_other_fried_eggs",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_fried_eggs",
+  },
+  {
+    name: "d_potatoes",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_milk_porridge",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_rice",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_buckwheat",
+    "label::English": "buckwheat",
+    "label::Tajik": "гречка (марҷумак)",
+    "label::Uzbek": "grechka",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_semolina",
+    "label::English": "semolina",
+    "label::Tajik": "манная (ярма)",
+    "label::Uzbek": "Yarma (mannaya yarmasi)",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_russian_barley",
+    "label::English": "рerlovka",
+    "label::Tajik": "ҷави русӣ",
+    "label::Uzbek": "rus arpa",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_oatmeal",
+    "label::English": "oatmeal",
+    "label::Tajik": "геркулес",
+    "label::Uzbek": "joxori uni",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_other_porridge",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_porridge",
+  },
+  {
+    name: "d_pumpkin",
+    "label::English": "pumpkin",
+    "label::Tajik": "каду",
+    "label::Uzbek": "qovoq",
+    DinnerFood: "d_milk_soup_with_pumpkin",
+  },
+  {
+    name: "d_butter_milk_soup_with_pumpkin",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    DinnerFood: "d_milk_soup_with_pumpkin",
+  },
+  {
+    name: "d_other_milk_soup_with_pumpkin",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_milk_soup_with_pumpkin",
+  },
+  {
+    name: "d_milk_milk_rice_porridge",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    DinnerFood: "d_milk_rice_porridge",
+  },
+  {
+    name: "d_butter_milk_rice_porridge",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    DinnerFood: "d_milk_rice_porridge",
+  },
+  {
+    name: "d_sweets_(sugar_sand,_sugar_cubes)",
+    "label::English": "sweets (sugar sand, sugar cubes)",
+    "label::Tajik": "ширинӣ (қанд, шакар)",
+    "label::Uzbek": "shirinliklar (shakar, oq qand)",
+    DinnerFood: "d_milk_rice_porridge",
+  },
+  {
+    name: "d_rice_milk_rice_porridge",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    DinnerFood: "d_milk_rice_porridge",
+  },
+  {
+    name: "d_other_milk_rice_porridge",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_milk_rice_porridge",
+  },
+  {
+    name: "d_allium_rosenbachianum",
+    "label::English": "allium rosenbachianum",
+    "label::Tajik": "сиёҳалаф",
+    "label::Uzbek": "siyohalaf (togh)",
+    DinnerFood: "d_rice_soup_(birinjoba)",
+  },
+  {
+    name: "d_green",
+    "label::English": "green",
+    "label::Tajik": "кабудӣ",
+    "label::Uzbek": "kokatlar",
+    DinnerFood: "d_rice_soup_(birinjoba)",
+  },
+  {
+    name: "d_rice_rice",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    DinnerFood: "d_rice_soup_(birinjoba)",
+  },
+  {
+    name: "d_egg_boiled_egg",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_boiled_egg",
+  },
+  {
+    name: "d_other_boiled_egg",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_boiled_egg",
+  },
+  {
     name: "d_carrot",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -10,7 +268,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes0",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -18,7 +275,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_turnip0",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -26,7 +282,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion0",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -34,7 +289,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef0",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -42,7 +296,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat0",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -50,7 +303,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat0",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -58,7 +310,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas0",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -66,7 +317,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other0",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -74,7 +324,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_khom_shurbo_(soup)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pumpkin0",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -82,7 +331,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot1",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -90,7 +338,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes1",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -98,7 +345,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_turnip1",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -106,7 +352,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion1",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -114,7 +359,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef1",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -122,7 +366,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat1",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -130,7 +373,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat1",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -138,7 +380,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat0",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -146,7 +387,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans0",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -154,7 +394,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas1",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -162,7 +401,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lentils0",
     "label::English": "lentils",
     "label::Tajik": "наск",
@@ -170,7 +408,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil0",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -178,7 +415,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_egg00",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_soup",
+  },
+  {
     name: "d_other1",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -186,7 +429,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion2",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -194,7 +436,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef2",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -202,7 +443,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat2",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -210,7 +450,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat2",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -218,7 +457,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil1",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -226,7 +464,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other2",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -234,7 +471,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_water_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot2",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -242,7 +478,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion3",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -250,7 +485,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef_tripe0",
     "label::English": "beef tripe",
     "label::Tajik": "ишкамбаи гов",
@@ -258,7 +492,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_egg0",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -266,7 +499,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans1",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -274,7 +506,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas2",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -282,7 +513,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil2",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -290,7 +520,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_wheat0",
     "label::English": "wheat",
     "label::Tajik": "гандум",
@@ -298,7 +527,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other3",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -306,7 +534,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_dalda",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_allium_rosenbachianum0",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -314,7 +541,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodles",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion4",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -322,7 +548,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodles",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chakka0",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -330,7 +555,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodles",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_noodles0",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -338,7 +562,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodles",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other4",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -346,7 +569,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodles",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes2",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -354,7 +576,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion5",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -362,7 +583,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans2",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -370,7 +590,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas3",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -378,7 +597,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chakka1",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -386,7 +604,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rice0",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -394,7 +611,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_carrot00",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    DinnerFood: "d_mastoba",
+  },
+  {
     name: "d_other5",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -402,15 +625,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mastoba",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_onion0",
-    "label::English": "green onion",
+    "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
     "label::Uzbek": "yashil piyoz",
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_coriander0",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -418,15 +639,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_like0",
-    "label::English": "like",
+    name: "d_dill0",
+    "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_basil0",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -434,15 +653,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_garlic0",
-    "label::English": "green garlic",
+    "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
     "label::Uzbek": "yashil sarimsoq",
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_spinach0",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -450,7 +667,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_blindweed_(capsella_bursa_pastoris)_v",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -458,7 +674,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_ginger_(jambil)0",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -466,7 +681,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_allium_rosenbachianum1",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -474,7 +688,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion6",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -482,7 +695,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans3",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -490,7 +702,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas4",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -498,7 +709,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil3",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -506,7 +716,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_noodles1",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -514,7 +723,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other6",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -522,7 +730,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot3",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -530,7 +737,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes3",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -538,7 +744,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion7",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -546,7 +751,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef3",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -554,7 +758,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat3",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -562,7 +765,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat3",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -570,7 +772,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans4",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -578,7 +779,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas5",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -586,7 +786,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil4",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -594,7 +793,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lagmon0",
     "label::English": "lagmon",
     "label::Tajik": "лагмон",
@@ -602,7 +800,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other7",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -610,7 +807,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_lagman",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot4",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -618,7 +814,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes4",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -626,7 +821,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beet0",
     "label::English": "beet",
     "label::Tajik": "лаблабу",
@@ -634,7 +828,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion8",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -642,7 +835,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cabbage0",
     "label::English": "cabbage",
     "label::Tajik": "карам",
@@ -650,7 +842,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef4",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -658,7 +849,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat4",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -666,7 +856,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat4",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -674,7 +863,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil5",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -682,7 +870,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other8",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -690,7 +877,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cabbage_soup_(borsch)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_onion_leaves0",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -698,7 +884,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_garlic_leaf0",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -706,7 +891,209 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_cauliflower50",
+    "label::English": "cauliflower",
+    "label::Tajik": "19. Гулкарам",
+    "label::Uzbek": "gulkaram",
+    DinnerFood: "d_cauliflower_with_eggs",
+  },
+  {
+    name: "d_egg51",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_cauliflower_with_eggs",
+  },
+  {
+    name: "d_oil51",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    DinnerFood: "d_cauliflower_with_eggs",
+  },
+  {
+    name: "d_other51",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_cauliflower_with_eggs",
+  },
+  {
+    name: "d_cabbage50",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_sweet_pepper51",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_carrot50",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_potatoes50",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_beet50",
+    "label::English": "beet",
+    "label::Tajik": "лаблабу",
+    "label::Uzbek": "lavlagi",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_onion51",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_beef50",
+    "label::English": "beef",
+    "label::Tajik": "гӯшти гов",
+    "label::Uzbek": "mol goshti",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_lamb_meat50",
+    "label::English": "lamb meat",
+    "label::Tajik": "гӯшти барра",
+    "label::Uzbek": "qozi goshti",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_goat_meat50",
+    "label::English": "goat meat",
+    "label::Tajik": "гӯшти буз",
+    "label::Uzbek": "echki goshti",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_oil52",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_rice50",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_other52",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_stuffed_cabbage",
+  },
+  {
+    name: "d_cabbage51",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_sweet_pepper52",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_carrot51",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_turnip50",
+    "label::English": "turnip",
+    "label::Tajik": "шалғам",
+    "label::Uzbek": "sholgom",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_onion52",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_beef51",
+    "label::English": "beef",
+    "label::Tajik": "гӯшти гов",
+    "label::Uzbek": "mol goshti",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_lamb_meat51",
+    "label::English": "lamb meat",
+    "label::Tajik": "гӯшти барра",
+    "label::Uzbek": "qozi goshti",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_goat_meat51",
+    "label::English": "goat meat",
+    "label::Tajik": "гӯшти буз",
+    "label::Uzbek": "echki goshti",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_peas50",
+    "label::English": "peas",
+    "label::Tajik": "нахӯд",
+    "label::Uzbek": "noxat",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_eggplant50",
+    "label::English": "eggplant",
+    "label::Tajik": "баклаҷон",
+    "label::Uzbek": "baqlajon",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_buttock50",
+    "label::English": "buttock",
+    "label::Tajik": "думба",
+    "label::Uzbek": "dumba",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_oil53",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    DinnerFood: "d_damlama",
+  },
+  {
+    name: "d_other53",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_damlama",
+  },
+  {
     name: "d_onion9",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -714,7 +1101,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_garlic0",
     "label::English": "garlic",
     "label::Tajik": "сирпиёз",
@@ -722,15 +1108,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sweet_pepper_0",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kallapocha0",
     "label::English": "kallapocha",
     "label::Tajik": "каллапоча",
@@ -738,7 +1122,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_hot_pepper0",
     "label::English": "hot pepper",
     "label::Tajik": "қаланфури тез",
@@ -746,7 +1129,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pepper0",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -754,7 +1136,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_flavorings0",
     "label::English": "flavorings",
     "label::Tajik": "хушбӯйкунандаҳо",
@@ -762,7 +1143,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_herbs0",
     "label::English": "herbs",
     "label::Tajik": "гиёҳҳо",
@@ -770,7 +1150,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other9",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -778,7 +1157,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kallapocha",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot5",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -786,7 +1164,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion10",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -794,7 +1171,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef5",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -802,7 +1178,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat5",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -810,7 +1185,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat5",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -818,7 +1192,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat1",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -826,7 +1199,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas6",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -834,7 +1206,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil6",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -842,7 +1213,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fat0",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -850,7 +1220,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buttock0",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -858,7 +1227,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pepper1",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -866,7 +1234,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rice1",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -874,7 +1241,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_egg01",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_plov",
+  },
+  {
     name: "d_other10",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -882,7 +1255,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot6",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -890,7 +1262,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes5",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -898,7 +1269,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion11",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -906,7 +1276,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef6",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -914,7 +1283,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat6",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -922,7 +1290,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat6",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -930,7 +1297,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat2",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -938,7 +1304,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas7",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -946,7 +1311,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil7",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -954,7 +1318,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fat1",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -962,7 +1325,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pepper2",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -970,7 +1332,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lagmon1",
     "label::English": "lagmon",
     "label::Tajik": "лагмон",
@@ -978,7 +1339,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rice2",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -986,7 +1346,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_egg02",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    DinnerFood: "d_noodle_plov",
+  },
+  {
     name: "d_other11",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -994,7 +1360,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_noodle_plov",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_onion_leaves1",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -1002,7 +1367,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_coriander1",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -1010,15 +1374,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_dill0",
+    name: "d_dill1",
     "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_basil1",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -1026,7 +1388,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_garlic_leaf1",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -1034,7 +1395,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_spinach1",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -1042,7 +1402,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_blindweed_(capsella_bursa_pastoris)_q",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -1050,7 +1409,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_ginger_(jambil)1",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -1058,7 +1416,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_allium_rosenbachianum2",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -1066,7 +1423,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion12",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1074,7 +1430,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cucumber0",
     "label::English": "cucumber",
     "label::Tajik": "бодиринг",
@@ -1082,7 +1437,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_tomatoes0",
     "label::English": "tomatoes",
     "label::Tajik": "помидор",
@@ -1090,7 +1444,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chakka2",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -1098,7 +1451,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil8",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1106,7 +1458,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_butter0",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -1114,7 +1465,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chapoti0",
     "label::English": "chapoti",
     "label::Tajik": "чапотӣ",
@@ -1122,7 +1472,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fatir0",
     "label::English": "fatir",
     "label::Tajik": "фатир",
@@ -1130,7 +1479,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other12",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1138,7 +1486,111 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurutob",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_green_onion_leaves1s",
+    "label::English": "green onion leaves",
+    "label::Tajik": "барги пиёзи сабз",
+    "label::Uzbek": "yashil piyoz barglari",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_coriander1s",
+    "label::English": "coriander",
+    "label::Tajik": "кашнич",
+    "label::Uzbek": "gashnich",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_dill0s",
+    "label::English": "dill",
+    "label::Tajik": "шибит",
+    "label::Uzbek": "ukrop",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_basil1s",
+    "label::English": "basil",
+    "label::Tajik": "райҳон",
+    "label::Uzbek": "rayhon",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_green_garlic_leaf1s",
+    "label::English": "green garlic leaf",
+    "label::Tajik": "барги сирпиёзи сабз",
+    "label::Uzbek": "yashil sarimsoq bargi",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_spinach1s",
+    "label::English": "spinach",
+    "label::Tajik": "испаноқ",
+    "label::Uzbek": "ismaloq",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_blindweed_(capsella_bursa_pastoris)_qs",
+    "label::English": "blindweed (Capsella bursa pastoris)",
+    "label::Tajik": "ҷоҷақ (ҷакҷак)",
+    "label::Uzbek": "jagh jagh",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_ginger(jambil)1s",
+    "label::English": "ginger (jambil)",
+    "label::Tajik": "занҷабил (ҷамбил)",
+    "label::Uzbek": "jambil",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_allium_rosenbachianum2s",
+    "label::English": "allium rosenbachianum",
+    "label::Tajik": "сиёҳалаф",
+    "label::Uzbek": "siyoh alaf (togh giyohi)",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_onion12s",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_cucumber0s",
+    "label::English": "cucumber",
+    "label::Tajik": "бодиринг",
+    "label::Uzbek": "bodring",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_tomatoes0s",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_chapoti0s",
+    "label::English": "chapoti",
+    "label::Tajik": "чапотӣ",
+    "label::Uzbek": "chapoti",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_fatir0s",
+    "label::English": "fatir",
+    "label::Tajik": "фатир",
+    "label::Uzbek": "fatir",
+    DinnerFood: "d_shakarob",
+  },
+  {
+    name: "d_other12s",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_shakarob",
+  },
+  {
     name: "d_pumpkin1",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -1146,7 +1598,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef7",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1154,7 +1605,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat7",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1162,7 +1612,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat7",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1170,7 +1619,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil9",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1178,7 +1626,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_butter1",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -1186,7 +1633,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pepper3",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -1194,7 +1640,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_noodles2",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -1202,7 +1647,27 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_potatoes00",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    DinnerFood: "d_mantu_or_meat_dumplings",
+  },
+  {
+    name: "d_carrot01",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    DinnerFood: "d_mantu_or_meat_dumplings",
+  },
+  {
+    name: "d_onion00",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_mantu_or_meat_dumplings",
+  },
+  {
     name: "d_other13",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1210,7 +1675,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mantu_or_meat_dumplings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion13",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1218,7 +1682,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef8",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1226,7 +1689,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat8",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1234,7 +1696,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat8",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1242,7 +1703,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat3",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1250,7 +1710,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other14",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1258,7 +1717,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sikhkabob_(shashlik)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion14",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1266,7 +1724,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_fish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fish0",
     "label::English": "fish",
     "label::Tajik": "моҳӣ",
@@ -1274,7 +1731,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_fish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil10",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1282,7 +1738,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_fish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other15",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1290,7 +1745,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_fish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot7",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -1298,7 +1752,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes6",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -1306,7 +1759,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_turnip2",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -1314,7 +1766,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beet1",
     "label::English": "beet",
     "label::Tajik": "лаблабу",
@@ -1322,15 +1773,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sweet_pepper_1",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_eggplant0",
     "label::English": "eggplant",
     "label::Tajik": "баклаҷон",
@@ -1338,7 +1787,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver0",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1346,7 +1794,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney0",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1354,7 +1801,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart0",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1362,7 +1808,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef9",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1370,7 +1815,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat9",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1378,7 +1822,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat9",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1386,7 +1829,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat4",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1394,7 +1836,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_meat_of_wild_birds0",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1402,7 +1843,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rabbit_meat0",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1410,7 +1850,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_wild_hog0",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1418,7 +1857,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil11",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1426,7 +1864,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fat2",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1434,7 +1871,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_onion01",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_kebab_(fried_potatoes)",
+  },
+  {
     name: "d_buttock1",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1442,7 +1885,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kebab_(fried_potatoes)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion15",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1450,7 +1892,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver1",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1458,7 +1899,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney1",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1466,7 +1906,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart1",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1474,7 +1913,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef10",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1482,7 +1920,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat10",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1490,7 +1927,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat10",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1498,7 +1934,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_meat_of_wild_birds1",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1506,7 +1941,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rabbit_meat1",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1514,7 +1948,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_wild_hog1",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1522,7 +1955,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil12",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1530,7 +1962,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fat3",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1538,7 +1969,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buttock2",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1546,7 +1976,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other16",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1554,7 +1983,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_meat",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver2",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1562,7 +1990,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney2",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1570,7 +1997,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart2",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1578,7 +2004,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef11",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1586,7 +2011,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat11",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1594,7 +2018,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat11",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1602,7 +2025,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_meat_of_wild_birds2",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1610,7 +2032,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rabbit_meat2",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1618,7 +2039,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_wild_hog2",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1626,7 +2046,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil13",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1634,7 +2053,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fat4",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1642,7 +2060,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buttock3",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1650,7 +2067,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other17",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1658,7 +2074,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qaurdoq_(qayla)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion16",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1666,15 +2081,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_chiсken",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sweet_pepper_2",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     DinnerFood: "d_fried_chiсken",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat5",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1682,7 +2095,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_chiсken",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other18",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1690,7 +2102,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fried_chiсken",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver3",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1698,7 +2109,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney3",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1706,7 +2116,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart3",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1714,7 +2123,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef12",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1722,7 +2130,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat12",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1730,7 +2137,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat12",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1738,7 +2144,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat6",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1746,7 +2151,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other19",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1754,7 +2158,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sausage",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes7",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -1762,7 +2165,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion17",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1770,7 +2172,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver4",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1778,7 +2179,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney4",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1786,7 +2186,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart4",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1794,7 +2193,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef13",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1802,7 +2200,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat13",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1810,7 +2207,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat13",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1818,7 +2214,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat7",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1826,7 +2221,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_egg1",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -1834,7 +2228,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil14",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1842,7 +2235,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cake0",
     "label::English": "cake",
     "label::Tajik": "кулча",
@@ -1850,15 +2242,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_homemade_bread0",
-    "label::English": "homemade bread",
-    "label::Tajik": "нони хонагӣ",
-    "label::Uzbek": "uy noni",
-    DinnerFood: "d_cutlet",
-  },
-  {
-    list_name: "DinnerProduct",
     name: "d_other20",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1866,7 +2249,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cutlet",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion18",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1874,7 +2256,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_liver5",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1882,7 +2263,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kidney5",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1890,7 +2270,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_heart5",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1898,7 +2277,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef14",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1906,7 +2284,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat14",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1914,7 +2291,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat14",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1922,7 +2298,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat8",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1930,7 +2305,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil15",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1938,7 +2312,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other21",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1946,7 +2319,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_goulash_soup",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes8",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -1954,7 +2326,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion19",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1962,7 +2333,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil16",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1970,7 +2340,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rice3",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -1978,7 +2347,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buckwheat0",
     "label::English": "buckwheat",
     "label::Tajik": "гречка (марҷумак)",
@@ -1986,7 +2354,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_mung_bean0",
     "label::English": "mung bean",
     "label::Tajik": "мош",
@@ -1994,7 +2361,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oats0",
     "label::English": "oats",
     "label::Tajik": "геркулес",
@@ -2002,7 +2368,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other22",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2010,7 +2375,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_side_dish",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion20",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2018,7 +2382,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef15",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2026,7 +2389,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat15",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2034,7 +2396,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat15",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2042,7 +2403,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas8",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -2050,7 +2410,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buttock4",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -2058,7 +2417,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other23",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2066,7 +2424,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas_second_meal",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pumpkin2",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -2074,7 +2431,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_carrot8",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -2082,7 +2438,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes9",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2090,7 +2445,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_turnip3",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -2098,7 +2452,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion21",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2106,7 +2459,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef16",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2114,7 +2466,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat16",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2122,7 +2473,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat16",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2130,7 +2480,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chicken_or_duck_meat9",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2138,7 +2487,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_egg2",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -2146,7 +2494,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beans5",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -2154,7 +2501,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas9",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -2162,7 +2508,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil17",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2170,7 +2515,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_rice4",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -2178,7 +2522,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_buckwheat1",
     "label::English": "buckwheat",
     "label::Tajik": "гречка (марҷумак)",
@@ -2186,7 +2529,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_mung_bean1",
     "label::English": "mung bean",
     "label::Tajik": "мош",
@@ -2194,7 +2536,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other24",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2202,7 +2543,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_various_porridges",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_potatoes10",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2210,7 +2550,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_onion22",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2218,7 +2557,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_beef17",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2226,7 +2564,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_lamb_meat17",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2234,7 +2571,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_goat_meat17",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2242,7 +2578,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil18",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2250,419 +2585,20 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_fungus0",
-    "label::English": "fungus",
+    name: "d_mushroom0",
+    "label::English": "mushroom",
     "label::Tajik": "замбӯруғ",
     "label::Uzbek": "qoziqorin",
     DinnerFood: "d_mushrooms",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other25",
     "label::English": "other",
     "label::Tajik": "дигар",
     "label::Uzbek": "boshqa",
     DinnerFood: "d_mushrooms",
   },
-
   {
-    list_name: "DinnerProduct",
-    name: "d_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_other1",
-    "label::English": "other",
-    "label::Tajik": "дигар",
-    "label::Uzbek": "boshqa",
-    DinnerFood: "d_sause",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_cabbage0",
-    "label::English": "cabbage",
-    "label::Tajik": "карам",
-    "label::Uzbek": "karam",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_other1",
-    "label::English": "other",
-    "label::Tajik": "дигар",
-    "label::Uzbek": "boshqa",
-    DinnerFood: "d_damlama",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_perlovka",
-    "label::English": "pearl barley",
-    "label::Tajik": "ҷави русӣ (перловка)",
-    "label::Uzbek": "pearl arpa",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_cucumber0",
-    "label::English": "cucumber",
-    "label::Tajik": "бодиринг",
-    "label::Uzbek": "bodring",
-    DinnerFood: "d_pickle",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_radish",
-    "label::English": "green radish",
-    "label::Tajik": "турб",
-    "label::Uzbek": "турб",
-    DinnerFood: "d_radish_salad",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_cabbage0",
-    "label::English": "cabbage",
-    "label::Tajik": "карам",
-    "label::Uzbek": "karam",
-    DinnerFood: "d_cabbage_salad",
-  },
-
-  {
-    list_name: "DinnerProduct",
-    name: "d_carrot3",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    DinnerFood: "d_carrots_salad",
-  },
-  {
-    list_name: "DinnerProduct",
-    name: "d_cucumber0",
-    "label::English": "cucumber",
-    "label::Tajik": "бодиринг",
-    "label::Uzbek": "bodring",
-    DinnerFood: "d_salad_with_tomato-cucumber",
-  },
-
-  {
-    list_name: "DinnerProduct",
-    name: "d_tomatoes0",
-    "label::English": "tomatoes",
-    "label::Tajik": "помидор",
-    "label::Uzbek": "pomidor",
-    DinnerFood: "d_salad_with_tomato-cucumber",
-  },
-
-  {
-    list_name: "DinnerProduct",
     name: "d_milk0",
     "label::English": "milk",
     "label::Tajik": "шир",
@@ -2670,7 +2606,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_milk",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green0",
     "label::English": "green",
     "label::Tajik": "кабудӣ",
@@ -2678,7 +2613,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cucumber1",
     "label::English": "cucumber",
     "label::Tajik": "бодиринг",
@@ -2686,7 +2620,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_tomatoes1",
     "label::English": "tomatoes",
     "label::Tajik": "помидор",
@@ -2694,7 +2627,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kefir0",
     "label::English": "kefir",
     "label::Tajik": "кефир",
@@ -2702,7 +2634,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chakka3",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -2710,7 +2641,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other26",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2718,7 +2648,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cholob",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_kefir1",
     "label::English": "kefir",
     "label::Tajik": "кефир",
@@ -2726,7 +2655,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_kefir",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_butter2",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -2734,7 +2662,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_butter",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cheese0",
     "label::English": "cheese",
     "label::Tajik": "панир",
@@ -2742,7 +2669,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cheese",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_yogurt0",
     "label::English": "yogurt",
     "label::Tajik": "йогурт",
@@ -2750,7 +2676,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_yogurt",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cream0",
     "label::English": "cream",
     "label::Tajik": "қаймоқ",
@@ -2758,7 +2683,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cream",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_skimmed_milk_(cottage_cheese)0",
     "label::English": "skimmed milk (cottage cheese)",
     "label::Tajik": "шири бурида (творог)",
@@ -2766,7 +2690,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cottage_cheese",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_jurgot0",
     "label::English": "jurgot",
     "label::Tajik": "ҷурғот",
@@ -2774,7 +2697,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_jurgot",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_qurut0",
     "label::English": "qurut",
     "label::Tajik": "қурут",
@@ -2782,23 +2704,20 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qurut",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_cake,_homemade_bread0",
-    "label::English": "cake, homemade bread",
+    name: "d_cake_homemade_bread0",
+    "label::English": "homemade bread",
     "label::Tajik": "кулча, нони хонагӣ",
     "label::Uzbek": "kulcha, uy noni",
-    DinnerFood: "d_kulcha,_homemade_bread",
+    DinnerFood: "d_homemade_bread0",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_bakers_bread0",
-    "label::English": "bakers bread, khleb",
-    "label::Tajik": "нони нонвой, хлеб",
-    "label::Uzbek": "novvoynon, khleb",
+    "label::English": "baker's bread",
+    "label::Tajik": "нони нонвой",
+    "label::Uzbek": "novvoynon",
     DinnerFood: "d_bakers_bread",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chapoti1",
     "label::English": "chapoti",
     "label::Tajik": "чапотӣ",
@@ -2806,7 +2725,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chapoti",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil19",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2814,7 +2732,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fatir",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_fatir1",
     "label::English": "fatir",
     "label::Tajik": "фатир",
@@ -2822,7 +2739,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_fatir",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil20",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2830,7 +2746,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sambusa",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sambusa0",
     "label::English": "sambusa",
     "label::Tajik": "самбуса",
@@ -2838,7 +2753,55 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sambusa",
   },
   {
-    list_name: "DinnerProduct",
+    name: "meat_sambusa_d",
+    "label::English": "meat",
+    "label::Tajik": "гӯшт",
+    "label::Uzbek": "gosht",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "pumpkin_sambusa_d",
+    "label::English": "pumpkin",
+    "label::Tajik": "каду",
+    "label::Uzbek": "qovoq",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "green_sambusa_d",
+    "label::English": "green",
+    "label::Tajik": "кабудӣ",
+    "label::Uzbek": "kokatlar",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "potatoes_sambusa_d",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "onion_sambusa_d",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "buttock_sambusa_d",
+    "label::English": "buttock",
+    "label::Tajik": "думба",
+    "label::Uzbek": "dumba",
+    DinnerFood: "d_sambusa",
+  },
+  {
+    name: "fat_sambusa_d",
+    "label::English": "fat",
+    "label::Tajik": "чарбу",
+    "label::Uzbek": "charbu",
+    DinnerFood: "d_sambusa",
+  },
+  {
     name: "d_other27",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2846,7 +2809,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sambusa",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_oil21",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2854,15 +2816,34 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_belyash",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_belyash0",
-    "label::English": "belyash",
+    "label::English": "blish (pie)",
     "label::Tajik": "беляши",
     "label::Uzbek": "belyash",
     DinnerFood: "d_belyash",
   },
   {
-    list_name: "DinnerProduct",
+    name: "meat_belyash_d",
+    "label::English": "meat",
+    "label::Tajik": "гӯшт",
+    "label::Uzbek": "gosht",
+    DinnerFood: "d_belyash",
+  },
+  {
+    name: "potatoes_belyash_d",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    DinnerFood: "d_belyash",
+  },
+  {
+    name: "liver_belyash_d",
+    "label::English": "liver",
+    "label::Tajik": "ҷигар,…",
+    "label::Uzbek": "jigar",
+    DinnerFood: "d_belyash",
+  },
+  {
     name: "d_other28",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2870,7 +2851,118 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_belyash",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_salad_cucumber",
+    "label::English": "cucumber",
+    "label::Tajik": "бодиринг",
+    "label::Uzbek": "bodring",
+    DinnerFood: "d_salad_with_tomato-cucumber",
+  },
+  {
+    name: "d_salad_tomatoes",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    DinnerFood: "d_salad_with_tomato-cucumber",
+  },
+  {
+    name: "d_salad_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_salad_with_tomato-cucumber",
+  },
+  {
+    name: "d_salad_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_salad_with_tomato-cucumber",
+  },
+  {
+    name: "d_radish_radish",
+    "label::English": "radish",
+    "label::Tajik": "шалғамча",
+    "label::Uzbek": "radiska",
+    DinnerFood: "d_radish_salad",
+  },
+  {
+    name: "d_radish_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_radish_salad",
+  },
+  {
+    name: "d_radish_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_radish_salad",
+  },
+  {
+    name: "d_cabbage_cabbage",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    DinnerFood: "d_cabbage_salad",
+  },
+  {
+    name: "d_cabbage_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_cabbage_salad",
+  },
+  {
+    name: "d_cabbage_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_cabbage_salad",
+  },
+  {
+    name: "d_carrots_carrots",
+    "label::English": "carrot",
+    "label::Tajik": "сабзи",
+    "label::Uzbek": "sabzi",
+    DinnerFood: "d_carrots_salad",
+  },
+  {
+    name: "d_carrots_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_carrots_salad",
+  },
+  {
+    name: "d_carrots_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_carrots_salad",
+  },
+  {
+    name: "d_beets_beets",
+    "label::English": "beet",
+    "label::Tajik": "лаблабу",
+    "label::Uzbek": "lablabu",
+    DinnerFood: "d_beets_salad",
+  },
+  {
+    name: "d_beets_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    DinnerFood: "d_beets_salad",
+  },
+  {
+    name: "d_beets_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    DinnerFood: "d_beets_salad",
+  },
+  {
     name: "d_butter3",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -2878,7 +2970,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qalama",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_qalama0",
     "label::English": "qalama",
     "label::Tajik": "қалама",
@@ -2886,7 +2977,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qalama",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_other29",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2894,7 +2984,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_qalama",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_tea0",
     "label::English": "tea",
     "label::Tajik": "чой",
@@ -2902,7 +2991,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_tea",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_coffee0",
     "label::English": "coffee",
     "label::Tajik": "кофе",
@@ -2910,7 +2998,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_coffee",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_compote0",
     "label::English": "compote",
     "label::Tajik": "компот",
@@ -2918,7 +3005,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_compote",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_juice0",
     "label::English": "juice",
     "label::Tajik": "шарбат (сок)",
@@ -2926,7 +3012,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_juice",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_wet_halva0",
     "label::English": "wet halva",
     "label::Tajik": "ҳавлои тар",
@@ -2934,7 +3019,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_wet_halva",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sesame_halva0",
     "label::English": "sesame halva",
     "label::Tajik": "ҳавлои кунҷитӣ",
@@ -2942,7 +3026,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_sesame_halva",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_simalak0",
     "label::English": "simalak",
     "label::Tajik": "сималак",
@@ -2950,7 +3033,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_simalak",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_nisholo0",
     "label::English": "nisholo",
     "label::Tajik": "нишоло",
@@ -2958,23 +3040,20 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_nisholo",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sunflower_halva0",
-    "label::English": "sunflower halva",
+    "label::English": "sunflower seeds-halva",
     "label::Tajik": "ҳавлои офтобпараст",
     "label::Uzbek": "kungaboqar holvasi",
     DinnerFood: "d_sunflower_halva",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_sweets_(sugar,_sugar_cubes)0",
-    "label::English": "sweets (sugar, sugar cubes)",
+    "label::English": "sweets (sugar sand, sugar cubes)",
     "label::Tajik": "ширинӣ (қанд, шакар)",
     "label::Uzbek": "shirinliklar (oq qand va shakar)",
     DinnerFood: "d_dessert",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_jam0",
     "label::English": "jam",
     "label::Tajik": "мураббо",
@@ -2982,7 +3061,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_jam",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_chocolates0",
     "label::English": "chocolates",
     "label::Tajik": "шоколадҳо",
@@ -2990,7 +3068,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_chocolates",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cakes0",
     "label::English": "cakes",
     "label::Tajik": "тортҳо",
@@ -2998,7 +3075,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cakes",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_cookies0",
     "label::English": "cookies",
     "label::Tajik": "печенье",
@@ -3006,7 +3082,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_cookies",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_iodized_salt0",
     "label::English": "iodized salt",
     "label::Tajik": "намаки йоднок",
@@ -3014,7 +3089,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_iodized_salt",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_hot_pepper1",
     "label::English": "hot pepper",
     "label::Tajik": "қаланфури тез",
@@ -3022,7 +3096,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_hot_pepper",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pepper4",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -3030,7 +3103,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_pepper",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_Zeroboy0",
     "label::English": "Zeroboy",
     "label::Tajik": "зверобой",
@@ -3038,15 +3110,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_zveroboy",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_spices_and_herbs0",
-    "label::English": "spices and herbs",
+    "label::English": "herbs",
     "label::Tajik": "хушбӯкунандаҳо ва гиёҳҳо",
     "label::Uzbek": "ziravorlar va giyohlar",
     DinnerFood: "d_flavorings",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peppermint0",
     "label::English": "peppermint",
     "label::Tajik": "пудина",
@@ -3054,15 +3124,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_peppermint",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_dill1",
+    name: "d_dill2",
     "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     DinnerFood: "d_dill",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_basil2",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -3070,7 +3138,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_basil",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_coriander2",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -3078,7 +3145,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_coriander",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_ginger_(jambil)2",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -3086,7 +3152,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_ginger_(jambil)",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_spinach2",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -3094,7 +3159,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_spinach",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_blindweed_(capsella_bursa_pastoris)",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -3102,7 +3166,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_blindweed_(capsella_bursa_pastoris)_s",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_onion_leaves2",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -3110,7 +3173,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_green_onion_leaves",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_green_garlic_leaf2",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -3118,7 +3180,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_green_garlic_leaf",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_peas10",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -3126,7 +3187,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_salty_peas",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_Bun0",
     "label::English": "Bun",
     "label::Tajik": "кулчақанд",
@@ -3134,7 +3194,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_bun",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_dry_apricot0",
     "label::English": "dry apricot",
     "label::Tajik": "зардолу ё зардолуқоқ",
@@ -3142,7 +3201,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_apricot",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_raisins0",
     "label::English": "raisins",
     "label::Tajik": "мавиз",
@@ -3150,7 +3208,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_raisins",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_donak0",
     "label::English": "donak",
     "label::Tajik": "донак",
@@ -3158,15 +3215,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_donak",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_nut0",
+    name: "d_walnut0",
     "label::English": "nut",
     "label::Tajik": "чормағз",
     "label::Uzbek": "yongoq",
     DinnerFood: "d_walnuts",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_corn0",
     "label::English": "corn",
     "label::Tajik": "ҷуворимакка",
@@ -3174,15 +3229,13 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_maize",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_melon0",
     "label::English": "melon",
-    "label::Tajik": "харбуза",
+    "label::Tajik": "харбуза (хандалак)",
     "label::Uzbek": "qovun",
     DinnerFood: "d_melon",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_watermelon0",
     "label::English": "watermelon",
     "label::Tajik": "тарбуз",
@@ -3190,7 +3243,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_watermelon",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_almond0",
     "label::English": "almond",
     "label::Tajik": "бодом",
@@ -3198,7 +3250,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_almonds",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pistachios0",
     "label::English": "pistachios",
     "label::Tajik": "писта",
@@ -3206,7 +3257,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_pistachio",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_groundnut0",
     "label::English": "groundnut",
     "label::Tajik": "чормағзи заминӣ",
@@ -3214,7 +3264,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_groundnut",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_apple0",
     "label::English": "apple",
     "label::Tajik": "себ",
@@ -3222,7 +3271,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_apple",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_grapes0",
     "label::English": "grapes",
     "label::Tajik": "ангур",
@@ -3230,7 +3278,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_grapes",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_banana0",
     "label::English": "banana",
     "label::Tajik": "банан",
@@ -3238,7 +3285,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_banana",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_tangerine0",
     "label::English": "tangerine",
     "label::Tajik": "мандарин",
@@ -3246,7 +3292,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_tangerine",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_orange0",
     "label::English": "orange",
     "label::Tajik": "апелсин",
@@ -3254,15 +3299,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_orange",
   },
   {
-    list_name: "DinnerProduct",
-    name: "d_kivi0",
-    "label::English": "kivi",
-    "label::Tajik": "киви",
-    "label::Uzbek": "kivi",
-    DinnerFood: "d_kivi",
-  },
-  {
-    list_name: "DinnerProduct",
     name: "d_pear0",
     "label::English": "pear",
     "label::Tajik": "нок",
@@ -3270,7 +3306,6 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_pear",
   },
   {
-    list_name: "DinnerProduct",
     name: "d_pomegranate0",
     "label::English": "pomegranate",
     "label::Tajik": "анор",
@@ -3278,7 +3313,27 @@ export const DinnerProduct: DinnerProductType[] = [
     DinnerFood: "d_pomegranate",
   },
   {
-    list_name: "DinnerProduct",
+    name: "d_mulberry0",
+    "label::English": "mulberry",
+    "label::Tajik": "тут",
+    "label::Uzbek": "tyt",
+    DinnerFood: "d_mulberry",
+  },
+  {
+    name: "d_sunflower0",
+    "label::English": "sunflower seeds",
+    "label::Tajik": "офтобпараст",
+    "label::Uzbek": "kungaboqar",
+    DinnerFood: "d_sunflower",
+  },
+  {
+    name: "d_persimmon0",
+    "label::English": "persimmon",
+    "label::Tajik": "хурмо",
+    "label::Uzbek": "xurmo",
+    DinnerFood: "d_persimmon",
+  },
+  {
     name: "d_strawberry0",
     "label::English": "strawberry",
     "label::Tajik": "клубника",

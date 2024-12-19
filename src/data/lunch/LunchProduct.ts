@@ -2,7 +2,265 @@ import { LunchProductType } from "../../types/lunch/LunchProduct";
 
 export const LunchProduct: LunchProductType[] = [
   {
-    list_name: "LunchProduct",
+    name: "l_milk",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    LunchFood: "l_flour_porridge",
+  },
+  {
+    name: "l_butter",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    LunchFood: "l_flour_porridge",
+  },
+  {
+    name: "l_flour",
+    "label::English": "flour",
+    "label::Tajik": "орд",
+    "label::Uzbek": "un",
+    LunchFood: "l_flour_porridge",
+  },
+  {
+    name: "l_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_flour_porridge",
+  },
+  {
+    name: "l_tea1",
+    "label::English": "tea",
+    "label::Tajik": "чой",
+    "label::Uzbek": "choy",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_nut",
+    "label::English": "nut",
+    "label::Tajik": "чормағз",
+    "label::Uzbek": "yongoq",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_milk_shirchoy",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_butter_shirchoy",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_mint1",
+    "label::English": "peppermint",
+    "label::Tajik": "пудина",
+    "label::Uzbek": "yalpiz",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_other_shirchoy",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_shirchoy_(tea_brewed_in_hot_milk)",
+  },
+  {
+    name: "l_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_sweet_pepper",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_tomatoes",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_egg",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_oil",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_other_fried_eggs",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_fried_eggs",
+  },
+  {
+    name: "l_potatoes",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_milk_porridge",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_rice",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_buckwheat",
+    "label::English": "buckwheat",
+    "label::Tajik": "гречка (марҷумак)",
+    "label::Uzbek": "grechka",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_semolina",
+    "label::English": "semolina",
+    "label::Tajik": "манная (ярма)",
+    "label::Uzbek": "Yarma (mannaya yarmasi)",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_russian_barley",
+    "label::English": "рerlovka",
+    "label::Tajik": "ҷави русӣ",
+    "label::Uzbek": "rus arpa",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_oatmeal",
+    "label::English": "oatmeal",
+    "label::Tajik": "геркулес",
+    "label::Uzbek": "joxori uni",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_other_porridge",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_porridge",
+  },
+  {
+    name: "l_pumpkin",
+    "label::English": "pumpkin",
+    "label::Tajik": "каду",
+    "label::Uzbek": "qovoq",
+    LunchFood: "l_milk_soup_with_pumpkin",
+  },
+  {
+    name: "l_butter_milk_soup_with_pumpkin",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    LunchFood: "l_milk_soup_with_pumpkin",
+  },
+  {
+    name: "l_other_milk_soup_with_pumpkin",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_milk_soup_with_pumpkin",
+  },
+  {
+    name: "l_milk_milk_rice_porridge",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    LunchFood: "l_milk_rice_porridge",
+  },
+  {
+    name: "l_butter_milk_rice_porridge",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    LunchFood: "l_milk_rice_porridge",
+  },
+  {
+    name: "l_sweets_(sugar_sand,_sugar_cubes)",
+    "label::English": "sweets (sugar sand, sugar cubes)",
+    "label::Tajik": "ширинӣ (қанд, шакар)",
+    "label::Uzbek": "shirinliklar (shakar, oq qand)",
+    LunchFood: "l_milk_rice_porridge",
+  },
+  {
+    name: "l_rice_milk_rice_porridge",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    LunchFood: "l_milk_rice_porridge",
+  },
+  {
+    name: "l_other_milk_rice_porridge",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_milk_rice_porridge",
+  },
+  {
+    name: "l_allium_rosenbachianum",
+    "label::English": "allium rosenbachianum",
+    "label::Tajik": "сиёҳалаф",
+    "label::Uzbek": "siyohalaf (togh)",
+    LunchFood: "l_rice_soup_(birinjoba)",
+  },
+  {
+    name: "l_green",
+    "label::English": "green",
+    "label::Tajik": "кабудӣ",
+    "label::Uzbek": "kokatlar",
+    LunchFood: "l_rice_soup_(birinjoba)",
+  },
+  {
+    name: "l_rice_rice",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    LunchFood: "l_rice_soup_(birinjoba)",
+  },
+  {
+    name: "l_egg_boiled_egg",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_boiled_egg",
+  },
+  {
+    name: "l_other_boiled_egg",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_boiled_egg",
+  },
+  {
     name: "l_carrot",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -10,7 +268,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes0",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -18,7 +275,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_turnip0",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -26,7 +282,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion0",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -34,7 +289,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef0",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -42,7 +296,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat0",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -50,7 +303,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat0",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -58,7 +310,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas0",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -66,7 +317,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other0",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -74,7 +324,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_khom_shurbo_(soup)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pumpkin0",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -82,7 +331,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot1",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -90,7 +338,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes1",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -98,7 +345,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_turnip1",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -106,7 +352,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion1",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -114,7 +359,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef1",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -122,7 +366,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat1",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -130,7 +373,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat1",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -138,7 +380,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat0",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -146,7 +387,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans0",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -154,7 +394,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas1",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -162,7 +401,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lentils0",
     "label::English": "lentils",
     "label::Tajik": "наск",
@@ -170,7 +408,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil0",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -178,7 +415,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_egg00",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_soup",
+  },
+  {
     name: "l_other1",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -186,7 +429,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion2",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -194,7 +436,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef2",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -202,7 +443,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat2",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -210,7 +450,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat2",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -218,7 +457,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil1",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -226,7 +464,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other2",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -234,7 +471,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_water_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot2",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -242,7 +478,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion3",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -250,7 +485,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef_tripe0",
     "label::English": "beef tripe",
     "label::Tajik": "ишкамбаи гов",
@@ -258,7 +492,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_egg0",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -266,7 +499,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans1",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -274,7 +506,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas2",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -282,7 +513,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil2",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -290,7 +520,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_wheat0",
     "label::English": "wheat",
     "label::Tajik": "гандум",
@@ -298,7 +527,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other3",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -306,7 +534,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_dalda",
   },
   {
-    list_name: "LunchProduct",
     name: "l_allium_rosenbachianum0",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -314,7 +541,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodles",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion4",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -322,7 +548,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodles",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chakka0",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -330,7 +555,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodles",
   },
   {
-    list_name: "LunchProduct",
     name: "l_noodles0",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -338,7 +562,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodles",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other4",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -346,7 +569,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodles",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes2",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -354,7 +576,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion5",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -362,7 +583,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans2",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -370,7 +590,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas3",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -378,7 +597,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chakka1",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -386,7 +604,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rice0",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -394,7 +611,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_carrot00",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    LunchFood: "l_mastoba",
+  },
+  {
     name: "l_other5",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -402,15 +625,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mastoba",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_onion0",
-    "label::English": "green onion",
+    "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
     "label::Uzbek": "yashil piyoz",
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_coriander0",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -418,15 +639,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_like0",
-    "label::English": "like",
+    name: "l_dill0",
+    "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_basil0",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -434,15 +653,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_garlic0",
-    "label::English": "green garlic",
+    "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
     "label::Uzbek": "yashil sarimsoq",
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_spinach0",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -450,7 +667,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_blindweed_(capsella_bursa_pastoris)_p",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -458,7 +674,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_ginger_(jambil)0",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -466,7 +681,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_allium_rosenbachianum1",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -474,7 +688,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion6",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -482,7 +695,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans3",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -490,7 +702,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas4",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -498,7 +709,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil3",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -506,7 +716,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_noodles1",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -514,7 +723,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other6",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -522,7 +730,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chopped_vegetables_(with_various_herbs)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot3",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -530,7 +737,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes3",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -538,7 +744,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion7",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -546,7 +751,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef3",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -554,7 +758,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat3",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -562,7 +765,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat3",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -570,7 +772,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans4",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -578,7 +779,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas5",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -586,7 +786,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil4",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -594,7 +793,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lagmon0",
     "label::English": "lagmon",
     "label::Tajik": "лагмон",
@@ -602,7 +800,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other7",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -610,7 +807,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_lagman",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot4",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -618,7 +814,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes4",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -626,7 +821,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beet0",
     "label::English": "beet",
     "label::Tajik": "лаблабу",
@@ -634,7 +828,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion8",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -642,7 +835,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_cabbage0",
     "label::English": "cabbage",
     "label::Tajik": "карам",
@@ -650,7 +842,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef4",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -658,7 +849,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat4",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -666,7 +856,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat4",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -674,7 +863,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil5",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -682,7 +870,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other8",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -690,7 +877,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cabbage_soup_(borsch)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_onion_leaves0",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -698,7 +884,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_garlic_leaf0",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -706,7 +891,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion9",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -714,7 +898,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_garlic0",
     "label::English": "garlic",
     "label::Tajik": "сирпиёз",
@@ -722,15 +905,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sweet_pepper_0",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kallapocha0",
     "label::English": "kallapocha",
     "label::Tajik": "каллапоча",
@@ -738,7 +919,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_hot_pepper0",
     "label::English": "hot pepper",
     "label::Tajik": "қаланфури тез",
@@ -746,7 +926,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pepper0",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -754,7 +933,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_flavorings0",
     "label::English": "flavorings",
     "label::Tajik": "хушбӯйкунандаҳо",
@@ -762,7 +940,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_herbs0",
     "label::English": "herbs",
     "label::Tajik": "гиёҳҳо",
@@ -770,7 +947,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other9",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -778,361 +954,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kallapocha",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    LunchFood: "l_sause",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_other1",
-    "label::English": "other",
-    "label::Tajik": "дигар",
-    "label::Uzbek": "boshqa",
-    LunchFood: "l_sause",
-  },
-
-  {
-    list_name: "LunchProduct",
-    name: "l_cabbage0",
-    "label::English": "cabbage",
-    "label::Tajik": "карам",
-    "label::Uzbek": "karam",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    LunchFood: "l_damlama",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_other1",
-    "label::English": "other",
-    "label::Tajik": "дигар",
-    "label::Uzbek": "boshqa",
-    LunchFood: "l_damlama",
-  },
-
-  {
-    list_name: "LunchProduct",
-    name: "l_pumpkin0",
-    "label::English": "pumpkin",
-    "label::Tajik": "каду",
-    "label::Uzbek": "qovoq",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_carrot1",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_potatoes1",
-    "label::English": "potatoes",
-    "label::Tajik": "картошка",
-    "label::Uzbek": "kartoshka",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_turnip1",
-    "label::English": "turnip",
-    "label::Tajik": "шалғам",
-    "label::Uzbek": "sholgom",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_onion1",
-    "label::English": "onion",
-    "label::Tajik": "пиёз",
-    "label::Uzbek": "piyoz",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beef1",
-    "label::English": "beef",
-    "label::Tajik": "гӯшти гов",
-    "label::Uzbek": "mol goshti",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lamb_meat1",
-    "label::English": "lamb meat",
-    "label::Tajik": "гӯшти барра",
-    "label::Uzbek": "qozi goshti",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_goat_meat1",
-    "label::English": "goat meat",
-    "label::Tajik": "гӯшти буз",
-    "label::Uzbek": "echki goshti",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_chicken_or_duck_meat0",
-    "label::English": "chicken or duck meat",
-    "label::Tajik": "гӯшти мурғ ё мурғобӣ",
-    "label::Uzbek": "tovuq yoki ordak goshti",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_beans0",
-    "label::English": "beans",
-    "label::Tajik": "лӯбиё",
-    "label::Uzbek": "dukkaklilar",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_peas1",
-    "label::English": "peas",
-    "label::Tajik": "нахӯд",
-    "label::Uzbek": "noxat",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_lentils0",
-    "label::English": "lentils",
-    "label::Tajik": "наск",
-    "label::Uzbek": "yasmiq",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_oil0",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_perlovka",
-    "label::English": "pearl barley",
-    "label::Tajik": "ҷави русӣ (перловка)",
-    "label::Uzbek": "pearl arpa",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cucumber0",
-    "label::English": "cucumber",
-    "label::Tajik": "бодиринг",
-    "label::Uzbek": "bodring",
-    LunchFood: "l_pickle",
-  },
-  {
-    list_name: "LunchProduct",
     name: "l_carrot5",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -1140,7 +961,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion10",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1148,7 +968,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef5",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1156,7 +975,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat5",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1164,7 +982,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat5",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1172,7 +989,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat1",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1180,7 +996,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas6",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -1188,7 +1003,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil6",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1196,7 +1010,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fat0",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1204,7 +1017,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buttock0",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1212,7 +1024,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pepper1",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -1220,7 +1031,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rice1",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -1228,7 +1038,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_egg01",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_plov",
+  },
+  {
     name: "l_other10",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1236,7 +1052,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot6",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -1244,7 +1059,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes5",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -1252,7 +1066,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion11",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1260,7 +1073,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef6",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1268,7 +1080,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat6",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1276,7 +1087,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat6",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1284,7 +1094,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat2",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1292,7 +1101,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas7",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -1300,7 +1108,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil7",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1308,7 +1115,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fat1",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1316,7 +1122,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pepper2",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -1324,7 +1129,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lagmon1",
     "label::English": "lagmon",
     "label::Tajik": "лагмон",
@@ -1332,7 +1136,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rice2",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -1340,7 +1143,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_egg02",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_noodle_plov",
+  },
+  {
     name: "l_other11",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1348,7 +1157,209 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_noodle_plov",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_cauliflower50",
+    "label::English": "cauliflower",
+    "label::Tajik": "19. Гулкарам",
+    "label::Uzbek": "gulkaram",
+    LunchFood: "l_cauliflower_with_eggs",
+  },
+  {
+    name: "l_egg51",
+    "label::English": "egg",
+    "label::Tajik": "тухм",
+    "label::Uzbek": "tuxum",
+    LunchFood: "l_cauliflower_with_eggs",
+  },
+  {
+    name: "l_oil51",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    LunchFood: "l_cauliflower_with_eggs",
+  },
+  {
+    name: "l_other51",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_cauliflower_with_eggs",
+  },
+  {
+    name: "l_cabbage50",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_sweet_pepper51",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_carrot50",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_potatoes50",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_beet50",
+    "label::English": "beet",
+    "label::Tajik": "лаблабу",
+    "label::Uzbek": "lavlagi",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_onion51",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_beef50",
+    "label::English": "beef",
+    "label::Tajik": "гӯшти гов",
+    "label::Uzbek": "mol goshti",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_lamb_meat50",
+    "label::English": "lamb meat",
+    "label::Tajik": "гӯшти барра",
+    "label::Uzbek": "qozi goshti",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_goat_meat50",
+    "label::English": "goat meat",
+    "label::Tajik": "гӯшти буз",
+    "label::Uzbek": "echki goshti",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_oil52",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_rice50",
+    "label::English": "rice",
+    "label::Tajik": "биринҷ",
+    "label::Uzbek": "guruch",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_other52",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_stuffed_cabbage",
+  },
+  {
+    name: "l_cabbage51",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_sweet_pepper52",
+    "label::English": "bulgarian green",
+    "label::Tajik": "болгари",
+    "label::Uzbek": "shirin qalampir",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_carrot51",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_turnip50",
+    "label::English": "turnip",
+    "label::Tajik": "шалғам",
+    "label::Uzbek": "sholgom",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_onion52",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_beef51",
+    "label::English": "beef",
+    "label::Tajik": "гӯшти гов",
+    "label::Uzbek": "mol goshti",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_lamb_meat51",
+    "label::English": "lamb meat",
+    "label::Tajik": "гӯшти барра",
+    "label::Uzbek": "qozi goshti",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_goat_meat51",
+    "label::English": "goat meat",
+    "label::Tajik": "гӯшти буз",
+    "label::Uzbek": "echki goshti",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_peas50",
+    "label::English": "peas",
+    "label::Tajik": "нахӯд",
+    "label::Uzbek": "noxat",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_eggplant50",
+    "label::English": "eggplant",
+    "label::Tajik": "баклаҷон",
+    "label::Uzbek": "baqlajon",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_buttock50",
+    "label::English": "buttock",
+    "label::Tajik": "думба",
+    "label::Uzbek": "dumba",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_oil53",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    LunchFood: "l_damlama",
+  },
+  {
+    name: "l_other53",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_damlama",
+  },
+  {
     name: "l_green_onion_leaves1",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -1356,7 +1367,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_coriander1",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -1364,15 +1374,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_dill0",
+    name: "l_dill1",
     "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_basil1",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -1380,7 +1388,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_garlic_leaf1",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -1388,7 +1395,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_spinach1",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -1396,7 +1402,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_blindweed_(capsella_bursa_pastoris)_q",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -1404,7 +1409,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_ginger(jambil)1",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -1412,7 +1416,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_allium_rosenbachianum2",
     "label::English": "allium rosenbachianum",
     "label::Tajik": "сиёҳалаф",
@@ -1420,7 +1423,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion12",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1428,7 +1430,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_cucumber0",
     "label::English": "cucumber",
     "label::Tajik": "бодиринг",
@@ -1436,7 +1437,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_tomatoes0",
     "label::English": "tomatoes",
     "label::Tajik": "помидор",
@@ -1444,7 +1444,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chakka2",
     "label::English": "chakka",
     "label::Tajik": "чакка",
@@ -1452,7 +1451,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil8",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1460,7 +1458,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_butter0",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -1468,7 +1465,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chapoti0",
     "label::English": "chapoti",
     "label::Tajik": "чапотӣ",
@@ -1476,7 +1472,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fatir0",
     "label::English": "fatir",
     "label::Tajik": "фатир",
@@ -1484,7 +1479,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other12",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1492,7 +1486,111 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qurutob",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_green_onion_leaves1s",
+    "label::English": "green onion leaves",
+    "label::Tajik": "барги пиёзи сабз",
+    "label::Uzbek": "yashil piyoz barglari",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_coriander1s",
+    "label::English": "coriander",
+    "label::Tajik": "кашнич",
+    "label::Uzbek": "gashnich",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_dill0s",
+    "label::English": "dill",
+    "label::Tajik": "шибит",
+    "label::Uzbek": "ukrop",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_basil1s",
+    "label::English": "basil",
+    "label::Tajik": "райҳон",
+    "label::Uzbek": "rayhon",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_green_garlic_leaf1s",
+    "label::English": "green garlic leaf",
+    "label::Tajik": "барги сирпиёзи сабз",
+    "label::Uzbek": "yashil sarimsoq bargi",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_spinach1s",
+    "label::English": "spinach",
+    "label::Tajik": "испаноқ",
+    "label::Uzbek": "ismaloq",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_blindweed_(capsella_bursa_pastoris)_qs",
+    "label::English": "blindweed (Capsella bursa pastoris)",
+    "label::Tajik": "ҷоҷақ (ҷакҷак)",
+    "label::Uzbek": "jagh jagh",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_ginger(jambil)1s",
+    "label::English": "ginger (jambil)",
+    "label::Tajik": "занҷабил (ҷамбил)",
+    "label::Uzbek": "jambil",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_allium_rosenbachianum2s",
+    "label::English": "allium rosenbachianum",
+    "label::Tajik": "сиёҳалаф",
+    "label::Uzbek": "siyoh alaf (togh giyohi)",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_onion12s",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_cucumber0s",
+    "label::English": "cucumber",
+    "label::Tajik": "бодиринг",
+    "label::Uzbek": "bodring",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_tomatoes0s",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_chapoti0s",
+    "label::English": "chapoti",
+    "label::Tajik": "чапотӣ",
+    "label::Uzbek": "chapoti",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_fatir0s",
+    "label::English": "fatir",
+    "label::Tajik": "фатир",
+    "label::Uzbek": "fatir",
+    LunchFood: "l_shakarob",
+  },
+  {
+    name: "l_other12s",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_shakarob",
+  },
+  {
     name: "l_pumpkin1",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -1500,7 +1598,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef7",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1508,7 +1605,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat7",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1516,7 +1612,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat7",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1524,7 +1619,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil9",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1532,7 +1626,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_butter1",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -1540,7 +1633,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pepper3",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -1548,7 +1640,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_noodles2",
     "label::English": "noodles",
     "label::Tajik": "угро",
@@ -1556,7 +1647,27 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_potatoes00",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    LunchFood: "l_mantu_or_meat_dumplings",
+  },
+  {
+    name: "l_carrot01",
+    "label::English": "carrot",
+    "label::Tajik": "сабзӣ",
+    "label::Uzbek": "sabzi",
+    LunchFood: "l_mantu_or_meat_dumplings",
+  },
+  {
+    name: "l_onion00",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_mantu_or_meat_dumplings",
+  },
+  {
     name: "l_other13",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1564,7 +1675,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mantu_or_meat_dumplings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion13",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1572,7 +1682,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef8",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1580,7 +1689,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat8",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1588,7 +1696,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat8",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1596,7 +1703,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat3",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1604,7 +1710,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other14",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1612,7 +1717,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sikhkabob_(shashlik)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion14",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1620,7 +1724,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_fish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fish0",
     "label::English": "fish",
     "label::Tajik": "моҳӣ",
@@ -1628,7 +1731,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_fish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil10",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1636,7 +1738,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_fish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other15",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1644,7 +1745,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_fish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot7",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -1652,7 +1752,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes6",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -1660,7 +1759,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_turnip2",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -1668,7 +1766,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beet1",
     "label::English": "beet",
     "label::Tajik": "лаблабу",
@@ -1676,15 +1773,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sweet_pepper_1",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_eggplant0",
     "label::English": "eggplant",
     "label::Tajik": "баклаҷон",
@@ -1692,7 +1787,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver0",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1700,7 +1794,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney0",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1708,7 +1801,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart0",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1716,7 +1808,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef9",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1724,7 +1815,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat9",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1732,7 +1822,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat9",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1740,7 +1829,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat4",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -1748,7 +1836,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_meat_of_wild_birds0",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1756,7 +1843,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rabbit_meat0",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1764,7 +1850,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_wild_hog0",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1772,7 +1857,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil11",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1780,7 +1864,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fat2",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1788,7 +1871,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_onion01",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_kebab_(fried_potatoes)",
+  },
+  {
     name: "l_buttock1",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1796,7 +1885,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_kebab_(fried_potatoes)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion15",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -1804,7 +1892,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver1",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1812,7 +1899,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney1",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1820,7 +1906,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart1",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1828,7 +1913,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef10",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1836,7 +1920,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat10",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1844,7 +1927,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat10",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1852,7 +1934,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_meat_of_wild_birds1",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1860,7 +1941,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rabbit_meat1",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1868,7 +1948,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_wild_hog1",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1876,7 +1955,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil12",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1884,7 +1962,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fat3",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1892,7 +1969,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buttock2",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -1900,7 +1976,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other16",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -1908,7 +1983,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_meat",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver2",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -1916,7 +1990,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney2",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -1924,7 +1997,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart2",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -1932,7 +2004,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef11",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -1940,7 +2011,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat11",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -1948,7 +2018,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat11",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -1956,7 +2025,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_meat_of_wild_birds2",
     "label::English": "meat of wild birds",
     "label::Tajik": "гӯшти паррандаҳои ваҳшӣ",
@@ -1964,7 +2032,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rabbit_meat2",
     "label::English": "rabbit meat",
     "label::Tajik": "гӯшти харгӯш",
@@ -1972,7 +2039,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_wild_hog2",
     "label::English": "wild hog",
     "label::Tajik": "гӯшти хуки ёбоӣ",
@@ -1980,7 +2046,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil13",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -1988,7 +2053,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_fat4",
     "label::English": "fat",
     "label::Tajik": "чарбу",
@@ -1996,7 +2060,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buttock3",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -2004,7 +2067,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other17",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2012,7 +2074,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qaurdoq_(qayla)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion16",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2020,15 +2081,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_chiсken",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sweet_pepper_2",
-    "label::English": "sweet pepper",
+    "label::English": "bulgarian green",
     "label::Tajik": "болгари",
     "label::Uzbek": "shirin qalampir",
     LunchFood: "l_fried_chiсken",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat5",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2036,7 +2095,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_chiсken",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other18",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2044,7 +2102,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_fried_chiсken",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver3",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -2052,7 +2109,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney3",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -2060,7 +2116,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart3",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -2068,7 +2123,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef12",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2076,7 +2130,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat12",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2084,7 +2137,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat12",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2092,7 +2144,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat6",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2100,7 +2151,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other19",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2108,7 +2158,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sausage",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes7",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2116,7 +2165,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion17",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2124,7 +2172,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver4",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -2132,7 +2179,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney4",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -2140,7 +2186,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart4",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -2148,7 +2193,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef13",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2156,7 +2200,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat13",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2164,7 +2207,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat13",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2172,7 +2214,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat7",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2180,7 +2221,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_egg1",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -2188,7 +2228,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil14",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2196,7 +2235,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_cake0",
     "label::English": "cake",
     "label::Tajik": "кулча",
@@ -2204,15 +2242,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_homemade_bread0",
-    "label::English": "homemade bread",
-    "label::Tajik": "нони хонагӣ",
-    "label::Uzbek": "uy noni",
-    LunchFood: "l_cutlet",
-  },
-  {
-    list_name: "LunchProduct",
     name: "l_other20",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2220,7 +2249,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cutlet",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion18",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2228,7 +2256,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_liver5",
     "label::English": "liver",
     "label::Tajik": "ҷигар",
@@ -2236,7 +2263,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_kidney5",
     "label::English": "kidney",
     "label::Tajik": "гурда",
@@ -2244,7 +2270,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_heart5",
     "label::English": "heart",
     "label::Tajik": "дил",
@@ -2252,7 +2277,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef14",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2260,7 +2284,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat14",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2268,7 +2291,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat14",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2276,7 +2298,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat8",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2284,7 +2305,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil15",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2292,7 +2312,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other21",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2300,7 +2319,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_goulash_soup",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes8",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2308,7 +2326,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion19",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2316,7 +2333,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil16",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2324,7 +2340,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rice3",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -2332,7 +2347,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buckwheat0",
     "label::English": "buckwheat",
     "label::Tajik": "гречка (марҷумак)",
@@ -2340,7 +2354,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_mung_bean0",
     "label::English": "mung bean",
     "label::Tajik": "мош",
@@ -2348,15 +2361,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oats0",
-    "label::English": "oats",
+    "label::English": "oatmeal",
     "label::Tajik": "геркулес",
     "label::Uzbek": "joxori uni",
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other22",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2364,7 +2375,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_side_dish",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion20",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2372,7 +2382,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef15",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2380,7 +2389,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat15",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2388,7 +2396,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat15",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2396,7 +2403,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas8",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -2404,7 +2410,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buttock4",
     "label::English": "buttock",
     "label::Tajik": "думба",
@@ -2412,7 +2417,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other23",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2420,7 +2424,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas_second_meal",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pumpkin2",
     "label::English": "pumpkin",
     "label::Tajik": "каду",
@@ -2428,7 +2431,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_carrot8",
     "label::English": "carrot",
     "label::Tajik": "сабзӣ",
@@ -2436,7 +2438,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes9",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2444,7 +2445,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_turnip3",
     "label::English": "turnip",
     "label::Tajik": "шалғам",
@@ -2452,7 +2452,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion21",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2460,7 +2459,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef16",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2468,7 +2466,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat16",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2476,7 +2473,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat16",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2484,7 +2480,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chicken_or_duck_meat9",
     "label::English": "chicken or duck meat",
     "label::Tajik": "гӯшти мурғ ё мурғобӣ",
@@ -2492,7 +2487,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_egg2",
     "label::English": "egg",
     "label::Tajik": "тухм",
@@ -2500,7 +2494,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beans5",
     "label::English": "beans",
     "label::Tajik": "лӯбиё",
@@ -2508,7 +2501,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas9",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -2516,7 +2508,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil17",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2524,7 +2515,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_rice4",
     "label::English": "rice",
     "label::Tajik": "биринҷ",
@@ -2532,7 +2522,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_buckwheat1",
     "label::English": "buckwheat",
     "label::Tajik": "гречка (марҷумак)",
@@ -2540,7 +2529,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_mung_bean1",
     "label::English": "mung bean",
     "label::Tajik": "мош",
@@ -2548,7 +2536,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other24",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2556,7 +2543,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_various_porridges",
   },
   {
-    list_name: "LunchProduct",
     name: "l_potatoes10",
     "label::English": "potatoes",
     "label::Tajik": "картошка",
@@ -2564,7 +2550,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_onion22",
     "label::English": "onion",
     "label::Tajik": "пиёз",
@@ -2572,7 +2557,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_beef17",
     "label::English": "beef",
     "label::Tajik": "гӯшти гов",
@@ -2580,7 +2564,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_lamb_meat17",
     "label::English": "lamb meat",
     "label::Tajik": "гӯшти барра",
@@ -2588,7 +2571,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_goat_meat17",
     "label::English": "goat meat",
     "label::Tajik": "гӯшти буз",
@@ -2596,7 +2578,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil18",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2604,15 +2585,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_fungus0",
-    "label::English": "fungus",
+    name: "l_mushroom0",
+    "label::English": "mushroom",
     "label::Tajik": "замбӯруғ",
     "label::Uzbek": "qoziqorin",
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other25",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2620,210 +2599,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_mushrooms",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_radish",
-    "label::English": "green radish",
-    "label::Tajik": "турб",
-    "label::Uzbek": "турб",
-    LunchFood: "l_radish_salad",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cabbage0",
-    "label::English": "cabbage",
-    "label::Tajik": "карам",
-    "label::Uzbek": "karam",
-    LunchFood: "l_cabbage_salad",
-  },
-
-  {
-    list_name: "LunchProduct",
-    name: "l_carrot3",
-    "label::English": "carrot",
-    "label::Tajik": "сабзӣ",
-    "label::Uzbek": "sabzi",
-    LunchFood: "l_carrots_salad",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cucumber0",
-    "label::English": "cucumber",
-    "label::Tajik": "бодиринг",
-    "label::Uzbek": "bodring",
-    LunchFood: "l_salad_with_tomato-cucumber",
-  },
-
-  {
-    list_name: "LunchProduct",
-    name: "l_tomatoes0",
-    "label::English": "tomatoes",
-    "label::Tajik": "помидор",
-    "label::Uzbek": "pomidor",
-    LunchFood: "l_salad_with_tomato-cucumber",
-  },
-
-  {
-    list_name: "LunchProduct",
-    name: "l_milk0",
-    "label::English": "milk",
-    "label::Tajik": "шир",
-    "label::Uzbek": "sut",
-    LunchFood: "l_milk",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_green0",
-    "label::English": "green",
-    "label::Tajik": "кабудӣ",
-    "label::Uzbek": "kokatlar",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cucumber1",
-    "label::English": "cucumber",
-    "label::Tajik": "бодиринг",
-    "label::Uzbek": "bodring",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_tomatoes1",
-    "label::English": "tomatoes",
-    "label::Tajik": "помидор",
-    "label::Uzbek": "pomidor",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_kefir0",
-    "label::English": "kefir",
-    "label::Tajik": "кефир",
-    "label::Uzbek": "kefir",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_chakka3",
-    "label::English": "chakka",
-    "label::Tajik": "чакка",
-    "label::Uzbek": "suzma qatiq",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_other26",
-    "label::English": "other",
-    "label::Tajik": "дигар",
-    "label::Uzbek": "boshqa",
-    LunchFood: "l_cholob",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_kefir1",
-    "label::English": "kefir",
-    "label::Tajik": "кефир",
-    "label::Uzbek": "qatiq",
-    LunchFood: "l_kefir",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_butter2",
-    "label::English": "butter",
-    "label::Tajik": "равғани маска",
-    "label::Uzbek": "sariyog",
-    LunchFood: "l_butter",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cheese0",
-    "label::English": "cheese",
-    "label::Tajik": "панир",
-    "label::Uzbek": "pishloq",
-    LunchFood: "l_cheese",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_yogurt0",
-    "label::English": "yogurt",
-    "label::Tajik": "йогурт",
-    "label::Uzbek": "yogurt",
-    LunchFood: "l_yogurt",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cream0",
-    "label::English": "cream",
-    "label::Tajik": "қаймоқ",
-    "label::Uzbek": "qaymoq",
-    LunchFood: "l_cream",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_skimmed_milk_(cottage_cheese)0",
-    "label::English": "skimmed milk (cottage cheese)",
-    "label::Tajik": "шири бурида (творог)",
-    "label::Uzbek": "yogsiz sut (tvorog)",
-    LunchFood: "l_cottage_cheese",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_jurgot0",
-    "label::English": "jurgot",
-    "label::Tajik": "ҷурғот",
-    "label::Uzbek": "qatiq",
-    LunchFood: "l_jurgot",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_qurut0",
-    "label::English": "qurut",
-    "label::Tajik": "қурут",
-    "label::Uzbek": "qurut",
-    LunchFood: "l_qurut",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_cake,_homemade_bread0",
-    "label::English": "cake, homemade bread",
-    "label::Tajik": "кулча, нони хонагӣ",
-    "label::Uzbek": "kulcha, uy noni",
-    LunchFood: "l_kulcha,_homemade_bread",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_bakers_bread0",
-    "label::English": "bakers bread, khleb",
-    "label::Tajik": "нони нонвой, хлеб",
-    "label::Uzbek": "novvoynon, khleb",
-    LunchFood: "l_bakers_bread",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_chapoti1",
-    "label::English": "chapoti",
-    "label::Tajik": "чапотӣ",
-    "label::Uzbek": "chapoti",
-    LunchFood: "l_chapoti",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_oil19",
-    "label::English": "oil",
-    "label::Tajik": "равған",
-    "label::Uzbek": "moy",
-    LunchFood: "l_fatir",
-  },
-  {
-    list_name: "LunchProduct",
-    name: "l_fatir1",
-    "label::English": "fatir",
-    "label::Tajik": "фатир",
-    "label::Uzbek": "fatir",
-    LunchFood: "l_fatir",
-  },
-  {
-    list_name: "LunchProduct",
     name: "l_oil20",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2831,7 +2606,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sambusa",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sambusa0",
     "label::English": "sambusa",
     "label::Tajik": "самбуса",
@@ -2839,7 +2613,55 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sambusa",
   },
   {
-    list_name: "LunchProduct",
+    name: "meat_sambusa_l",
+    "label::English": "meat",
+    "label::Tajik": "гӯшт",
+    "label::Uzbek": "gosht",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "pumpkin_sambusa_l",
+    "label::English": "pumpkin",
+    "label::Tajik": "каду",
+    "label::Uzbek": "qovoq",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "green_sambusa_l",
+    "label::English": "green",
+    "label::Tajik": "кабудӣ",
+    "label::Uzbek": "kokatlar",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "onion_sambusa_l",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "buttock_sambusa_l",
+    "label::English": "buttock",
+    "label::Tajik": "думба",
+    "label::Uzbek": "dumba",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "fat_sambusa_l",
+    "label::English": "fat",
+    "label::Tajik": "чарбу",
+    "label::Uzbek": "charbu",
+    LunchFood: "l_sambusa",
+  },
+  {
+    name: "potatoes_sambusa_l",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    LunchFood: "l_sambusa",
+  },
+  {
     name: "l_other27",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2847,7 +2669,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sambusa",
   },
   {
-    list_name: "LunchProduct",
     name: "l_oil21",
     "label::English": "oil",
     "label::Tajik": "равған",
@@ -2855,15 +2676,34 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_belyash",
   },
   {
-    list_name: "LunchProduct",
+    name: "meat_belyash_l",
+    "label::English": "meat",
+    "label::Tajik": "гӯшт",
+    "label::Uzbek": "gosht",
+    LunchFood: "l_belyash",
+  },
+  {
+    name: "liver_belyash_l",
+    "label::English": "liver",
+    "label::Tajik": "ҷигар,…",
+    "label::Uzbek": "jigar",
+    LunchFood: "l_belyash",
+  },
+  {
+    name: "potatoes_belyash_l",
+    "label::English": "potatoes",
+    "label::Tajik": "картошка",
+    "label::Uzbek": "kartoshka",
+    LunchFood: "l_belyash",
+  },
+  {
     name: "l_belyash0",
-    "label::English": "belyash",
+    "label::English": "blish (pie)",
     "label::Tajik": "беляши",
     "label::Uzbek": "belyash",
     LunchFood: "l_belyash",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other28",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2871,7 +2711,258 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_belyash",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_salad_cucumber",
+    "label::English": "cucumber",
+    "label::Tajik": "бодиринг",
+    "label::Uzbek": "bodring",
+    LunchFood: "l_salad_with_tomato-cucumber",
+  },
+  {
+    name: "l_salad_tomatoes",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    LunchFood: "l_salad_with_tomato-cucumber",
+  },
+  {
+    name: "l_salad_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_salad_with_tomato-cucumber",
+  },
+  {
+    name: "l_salad_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_salad_with_tomato-cucumber",
+  },
+  {
+    name: "l_radish_radish",
+    "label::English": "radish",
+    "label::Tajik": "шалғамча",
+    "label::Uzbek": "radiska",
+    LunchFood: "l_radish_salad",
+  },
+  {
+    name: "l_radish_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_radish_salad",
+  },
+  {
+    name: "l_radish_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_radish_salad",
+  },
+  {
+    name: "l_cabbage_cabbage",
+    "label::English": "cabbage",
+    "label::Tajik": "карам",
+    "label::Uzbek": "karam",
+    LunchFood: "l_cabbage_salad",
+  },
+  {
+    name: "l_cabbage_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_cabbage_salad",
+  },
+  {
+    name: "l_cabbage_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_cabbage_salad",
+  },
+  {
+    name: "l_carrots_carrots",
+    "label::English": "carrot",
+    "label::Tajik": "сабзи",
+    "label::Uzbek": "sabzi",
+    LunchFood: "l_carrots_salad",
+  },
+  {
+    name: "l_carrots_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_carrots_salad",
+  },
+  {
+    name: "l_carrots_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_carrots_salad",
+  },
+  {
+    name: "l_beets_beets",
+    "label::English": "beet",
+    "label::Tajik": "лаблабу",
+    "label::Uzbek": "lablabu",
+    LunchFood: "l_beets_salad",
+  },
+  {
+    name: "l_beets_onion",
+    "label::English": "onion",
+    "label::Tajik": "пиёз",
+    "label::Uzbek": "piyoz",
+    LunchFood: "l_beets_salad",
+  },
+  {
+    name: "l_beets_other",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_beets_salad",
+  },
+  {
+    name: "l_milk0",
+    "label::English": "milk",
+    "label::Tajik": "шир",
+    "label::Uzbek": "sut",
+    LunchFood: "l_milk",
+  },
+  {
+    name: "l_green0",
+    "label::English": "green",
+    "label::Tajik": "кабудӣ",
+    "label::Uzbek": "kokatlar",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_cucumber1",
+    "label::English": "cucumber",
+    "label::Tajik": "бодиринг",
+    "label::Uzbek": "bodring",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_tomatoes1",
+    "label::English": "tomatoes",
+    "label::Tajik": "помидор",
+    "label::Uzbek": "pomidor",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_kefir0",
+    "label::English": "kefir",
+    "label::Tajik": "кефир",
+    "label::Uzbek": "kefir",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_chakka3",
+    "label::English": "chakka",
+    "label::Tajik": "чакка",
+    "label::Uzbek": "suzma qatiq",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_other26",
+    "label::English": "other",
+    "label::Tajik": "дигар",
+    "label::Uzbek": "boshqa",
+    LunchFood: "l_cholob",
+  },
+  {
+    name: "l_kefir1",
+    "label::English": "kefir",
+    "label::Tajik": "кефир",
+    "label::Uzbek": "qatiq",
+    LunchFood: "l_kefir",
+  },
+  {
+    name: "l_butter2",
+    "label::English": "butter",
+    "label::Tajik": "равғани маска",
+    "label::Uzbek": "sariyog",
+    LunchFood: "l_butter",
+  },
+  {
+    name: "l_cheese0",
+    "label::English": "cheese",
+    "label::Tajik": "панир",
+    "label::Uzbek": "pishloq",
+    LunchFood: "l_cheese",
+  },
+  {
+    name: "l_yogurt0",
+    "label::English": "yogurt",
+    "label::Tajik": "йогурт",
+    "label::Uzbek": "yogurt",
+    LunchFood: "l_yogurt",
+  },
+  {
+    name: "l_cream0",
+    "label::English": "cream",
+    "label::Tajik": "қаймоқ",
+    "label::Uzbek": "qaymoq",
+    LunchFood: "l_cream",
+  },
+  {
+    name: "l_skimmed_milk_(cottage_cheese)0",
+    "label::English": "skimmed milk (cottage cheese)",
+    "label::Tajik": "шири бурида (творог)",
+    "label::Uzbek": "yogsiz sut (tvorog)",
+    LunchFood: "l_cottage_cheese",
+  },
+  {
+    name: "l_jurgot0",
+    "label::English": "jurgot",
+    "label::Tajik": "ҷурғот",
+    "label::Uzbek": "qatiq",
+    LunchFood: "l_jurgot",
+  },
+  {
+    name: "l_qurut0",
+    "label::English": "qurut",
+    "label::Tajik": "қурут",
+    "label::Uzbek": "qurut",
+    LunchFood: "l_qurut",
+  },
+  {
+    name: "l_cake_homemade_bread0",
+    "label::English": "homemade bread",
+    "label::Tajik": "кулча, нони хонагӣ",
+    "label::Uzbek": "kulcha, uy noni",
+    LunchFood: "l_homemade_bread0",
+  },
+  {
+    name: "l_bakers_bread0",
+    "label::English": "baker's bread",
+    "label::Tajik": "нони нонвой",
+    "label::Uzbek": "novvoynon",
+    LunchFood: "l_bakers_bread",
+  },
+  {
+    name: "l_chapoti1",
+    "label::English": "chapoti",
+    "label::Tajik": "чапотӣ",
+    "label::Uzbek": "chapoti",
+    LunchFood: "l_chapoti",
+  },
+  {
+    name: "l_oil19",
+    "label::English": "oil",
+    "label::Tajik": "равған",
+    "label::Uzbek": "moy",
+    LunchFood: "l_fatir",
+  },
+  {
+    name: "l_fatir1",
+    "label::English": "fatir",
+    "label::Tajik": "фатир",
+    "label::Uzbek": "fatir",
+    LunchFood: "l_fatir",
+  },
+  {
     name: "l_butter3",
     "label::English": "butter",
     "label::Tajik": "равғани маска",
@@ -2879,7 +2970,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qalama",
   },
   {
-    list_name: "LunchProduct",
     name: "l_qalama0",
     "label::English": "qalama",
     "label::Tajik": "қалама",
@@ -2887,7 +2977,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qalama",
   },
   {
-    list_name: "LunchProduct",
     name: "l_other29",
     "label::English": "other",
     "label::Tajik": "дигар",
@@ -2895,7 +2984,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_qalama",
   },
   {
-    list_name: "LunchProduct",
     name: "l_tea0",
     "label::English": "tea",
     "label::Tajik": "чой",
@@ -2903,7 +2991,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_tea",
   },
   {
-    list_name: "LunchProduct",
     name: "l_coffee0",
     "label::English": "coffee",
     "label::Tajik": "кофе",
@@ -2911,7 +2998,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_coffee",
   },
   {
-    list_name: "LunchProduct",
     name: "l_compote0",
     "label::English": "compote",
     "label::Tajik": "компот",
@@ -2919,7 +3005,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_compote",
   },
   {
-    list_name: "LunchProduct",
     name: "l_juice0",
     "label::English": "juice",
     "label::Tajik": "шарбат (сок)",
@@ -2927,7 +3012,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_juice",
   },
   {
-    list_name: "LunchProduct",
     name: "l_wet_halva0",
     "label::English": "wet halva",
     "label::Tajik": "ҳавлои тар",
@@ -2935,7 +3019,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_wet_halva",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sesame_halva0",
     "label::English": "sesame halva",
     "label::Tajik": "ҳавлои кунҷитӣ",
@@ -2943,7 +3026,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_sesame_halva",
   },
   {
-    list_name: "LunchProduct",
     name: "l_simalak0",
     "label::English": "simalak",
     "label::Tajik": "сималак",
@@ -2951,7 +3033,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_simalak",
   },
   {
-    list_name: "LunchProduct",
     name: "l_nisholo0",
     "label::English": "nisholo",
     "label::Tajik": "нишоло",
@@ -2959,23 +3040,20 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_nisholo",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sunflower_halva0",
-    "label::English": "sunflower halva",
+    "label::English": "sunflower seeds-halva",
     "label::Tajik": "ҳавлои офтобпараст",
     "label::Uzbek": "kungaboqar holvasi",
     LunchFood: "l_sunflower_halva",
   },
   {
-    list_name: "LunchProduct",
     name: "l_sweets_(sugar,_sugar_cubes)0",
-    "label::English": "sweets (sugar, sugar cubes)",
+    "label::English": "sweets (sugar sand, sugar cubes)",
     "label::Tajik": "ширинӣ (қанд, шакар)",
     "label::Uzbek": "shirinliklar (oq qand, shakar)",
     LunchFood: "l_dessert",
   },
   {
-    list_name: "LunchProduct",
     name: "l_jam0",
     "label::English": "jam",
     "label::Tajik": "мураббо",
@@ -2983,7 +3061,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_jam",
   },
   {
-    list_name: "LunchProduct",
     name: "l_chocolates0",
     "label::English": "chocolates",
     "label::Tajik": "шоколадҳо",
@@ -2991,7 +3068,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_chocolates",
   },
   {
-    list_name: "LunchProduct",
     name: "l_cakes0",
     "label::English": "cakes",
     "label::Tajik": "тортҳо",
@@ -2999,7 +3075,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cakes",
   },
   {
-    list_name: "LunchProduct",
     name: "l_cookies0",
     "label::English": "cookies",
     "label::Tajik": "печенье",
@@ -3007,7 +3082,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_cookies",
   },
   {
-    list_name: "LunchProduct",
     name: "l_iodized_salt0",
     "label::English": "iodized salt",
     "label::Tajik": "намаки йоднок",
@@ -3015,7 +3089,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_iodized_salt",
   },
   {
-    list_name: "LunchProduct",
     name: "l_hot_pepper1",
     "label::English": "hot pepper",
     "label::Tajik": "қаланфури тез",
@@ -3023,7 +3096,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_hot_pepper",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pepper4",
     "label::English": "pepper",
     "label::Tajik": "мурч",
@@ -3031,7 +3103,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_pepper",
   },
   {
-    list_name: "LunchProduct",
     name: "l_Zeroboy0",
     "label::English": "Zeroboy",
     "label::Tajik": "зверобой",
@@ -3039,15 +3110,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_zveroboy",
   },
   {
-    list_name: "LunchProduct",
     name: "l_spices_and_herbs0",
-    "label::English": "spices and herbs",
+    "label::English": "herbs",
     "label::Tajik": "хушбӯкунандаҳо ва гиёҳҳо",
     "label::Uzbek": "ziravorlar va giyohlar",
     LunchFood: "l_flavorings",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peppermint0",
     "label::English": "peppermint",
     "label::Tajik": "пудина",
@@ -3055,15 +3124,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_peppermint",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_dill1",
+    name: "l_dill2",
     "label::English": "dill",
     "label::Tajik": "шибит",
     "label::Uzbek": "ukrop",
     LunchFood: "l_dill",
   },
   {
-    list_name: "LunchProduct",
     name: "l_basil2",
     "label::English": "basil",
     "label::Tajik": "райҳон",
@@ -3071,7 +3138,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_basil",
   },
   {
-    list_name: "LunchProduct",
     name: "l_coriander2",
     "label::English": "coriander",
     "label::Tajik": "кашнич",
@@ -3079,7 +3145,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_coriander",
   },
   {
-    list_name: "LunchProduct",
     name: "l_ginger_(jambil)2",
     "label::English": "ginger (jambil)",
     "label::Tajik": "занҷабил (ҷамбил)",
@@ -3087,7 +3152,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_ginger_(jambil)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_spinach2",
     "label::English": "spinach",
     "label::Tajik": "испаноқ",
@@ -3095,7 +3159,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_spinach",
   },
   {
-    list_name: "LunchProduct",
     name: "l_blindweed_(capsella_bursa_pastoris)1",
     "label::English": "blindweed (Capsella bursa pastoris)",
     "label::Tajik": "ҷоҷақ (ҷакҷак)",
@@ -3103,7 +3166,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_blindweed_(capsella_bursa_pastoris)",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_onion_leaves2",
     "label::English": "green onion leaves",
     "label::Tajik": "барги пиёзи сабз",
@@ -3111,7 +3173,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_green_onion_leaves",
   },
   {
-    list_name: "LunchProduct",
     name: "l_green_garlic_leaf2",
     "label::English": "green garlic leaf",
     "label::Tajik": "барги сирпиёзи сабз",
@@ -3119,7 +3180,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_green_garlic_leaf",
   },
   {
-    list_name: "LunchProduct",
     name: "l_peas10",
     "label::English": "peas",
     "label::Tajik": "нахӯд",
@@ -3127,7 +3187,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_salty_peas",
   },
   {
-    list_name: "LunchProduct",
     name: "l_Bun0",
     "label::English": "Bun",
     "label::Tajik": "кулчақанд",
@@ -3135,7 +3194,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_bun",
   },
   {
-    list_name: "LunchProduct",
     name: "l_dry_apricot0",
     "label::English": "dry apricot",
     "label::Tajik": "зардолу ё зардолуқоқ",
@@ -3143,7 +3201,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_apricot",
   },
   {
-    list_name: "LunchProduct",
     name: "l_raisins0",
     "label::English": "raisins",
     "label::Tajik": "мавиз",
@@ -3151,7 +3208,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_raisins",
   },
   {
-    list_name: "LunchProduct",
     name: "l_donak0",
     "label::English": "donak",
     "label::Tajik": "донак",
@@ -3159,15 +3215,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_donak",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_nut0",
+    name: "l_walnut0",
     "label::English": "nut",
     "label::Tajik": "чормағз",
     "label::Uzbek": "yongoq",
     LunchFood: "l_walnuts",
   },
   {
-    list_name: "LunchProduct",
     name: "l_corn0",
     "label::English": "corn",
     "label::Tajik": "ҷуворимакка",
@@ -3175,15 +3229,13 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_maize",
   },
   {
-    list_name: "LunchProduct",
     name: "l_melon0",
     "label::English": "melon",
-    "label::Tajik": "харбуза",
+    "label::Tajik": "харбуза (хандалак)",
     "label::Uzbek": "qovun",
     LunchFood: "l_melon",
   },
   {
-    list_name: "LunchProduct",
     name: "l_watermelon0",
     "label::English": "watermelon",
     "label::Tajik": "тарбуз",
@@ -3191,7 +3243,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_watermelon",
   },
   {
-    list_name: "LunchProduct",
     name: "l_almond0",
     "label::English": "almond",
     "label::Tajik": "бодом",
@@ -3199,7 +3250,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_almonds",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pistachios0",
     "label::English": "pistachios",
     "label::Tajik": "писта",
@@ -3207,7 +3257,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_pistachio",
   },
   {
-    list_name: "LunchProduct",
     name: "l_groundnut0",
     "label::English": "groundnut",
     "label::Tajik": "чормағзи заминӣ",
@@ -3215,7 +3264,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_groundnut",
   },
   {
-    list_name: "LunchProduct",
     name: "l_apple0",
     "label::English": "apple",
     "label::Tajik": "себ",
@@ -3223,7 +3271,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_apple",
   },
   {
-    list_name: "LunchProduct",
     name: "l_grapes0",
     "label::English": "grapes",
     "label::Tajik": "ангур",
@@ -3231,7 +3278,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_grapes",
   },
   {
-    list_name: "LunchProduct",
     name: "l_banana0",
     "label::English": "banana",
     "label::Tajik": "банан",
@@ -3239,7 +3285,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_banana",
   },
   {
-    list_name: "LunchProduct",
     name: "l_tangerine0",
     "label::English": "tangerine",
     "label::Tajik": "мандарин",
@@ -3247,7 +3292,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_tangerine",
   },
   {
-    list_name: "LunchProduct",
     name: "l_orange0",
     "label::English": "orange",
     "label::Tajik": "апелсин",
@@ -3255,15 +3299,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_orange",
   },
   {
-    list_name: "LunchProduct",
-    name: "l_kivi",
-    "label::English": "kivi",
-    "label::Tajik": "киви",
-    "label::Uzbek": "kivi",
-    LunchFood: "l_kivi",
-  },
-  {
-    list_name: "LunchProduct",
     name: "l_pear0",
     "label::English": "pear",
     "label::Tajik": "нок",
@@ -3271,7 +3306,6 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_pear",
   },
   {
-    list_name: "LunchProduct",
     name: "l_pomegranate0",
     "label::English": "pomegranate",
     "label::Tajik": "анор",
@@ -3279,7 +3313,27 @@ export const LunchProduct: LunchProductType[] = [
     LunchFood: "l_pomegranate",
   },
   {
-    list_name: "LunchProduct",
+    name: "l_mulberry0",
+    "label::English": "mulberry",
+    "label::Tajik": "тут",
+    "label::Uzbek": "tyt",
+    LunchFood: "l_mulberry",
+  },
+  {
+    name: "l_sunflower0",
+    "label::English": "sunflower seeds",
+    "label::Tajik": "офтобпараст",
+    "label::Uzbek": "kungaboqar",
+    LunchFood: "l_sunflower",
+  },
+  {
+    name: "l_persimmon0",
+    "label::English": "persimmon",
+    "label::Tajik": "хурмо",
+    "label::Uzbek": "xurmo",
+    LunchFood: "l_persimmon",
+  },
+  {
     name: "l_strawberry0",
     "label::English": "strawberry",
     "label::Tajik": "клубника",
