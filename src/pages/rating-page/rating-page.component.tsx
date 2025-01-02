@@ -93,7 +93,7 @@ export const RatingPage = () => {
     scales: {
       y: {
         beginAtZero: true,
-        max: 13,
+        max: 10,
         min: 0,
       },
     },

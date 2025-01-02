@@ -1,6 +1,6 @@
 import { useContext, useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, Divider, List } from "antd";
+import { Button, Divider, List, Typography } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import {
   Chart as ChartJS,
@@ -51,6 +51,7 @@ export const FinishPage = ({}: {}) => {
 
   const [allCategory, setAllCategory] = useState<CategoryContextType[]>([]);
   const [feedback, setFeedback] = useState<string>("");
+  const [expanded, setExpanded] = useState<{ [key: string]: boolean }>({});
 
   const { category, setCategory } = useContext(CategoryContext);
   const { lang } = useContext(NavBarContext);
@@ -121,7 +122,7 @@ export const FinishPage = ({}: {}) => {
     scales: {
       y: {
         beginAtZero: true,
-        max: 13,
+        max: 10,
         min: 0,
       },
     },
@@ -197,7 +198,7 @@ export const FinishPage = ({}: {}) => {
         dataSource={helpMessageForCategories(Categories, category, lang).filter(
           (elem) => elem
         )}
-        renderItem={(item) => <List.Item> {item}</List.Item>}
+        renderItem={(item) => <List.Item> {item} </List.Item>}
       />
 
       {/* --------------------------------------------------------------------------- */}
@@ -219,7 +220,21 @@ export const FinishPage = ({}: {}) => {
         bordered
         dataSource={helpMessageForProfit(CategoriesProfit, category, lang)}
         renderItem={(item) => (
-          <List.Item style={{ color: "#65a30d" }}> {item}</List.Item>
+          <List.Item style={{ justifyContent: "flex-start" }}>
+            <Typography.Paragraph
+              ellipsis={{
+                rows: 1,
+
+                expandable: true,
+                symbol: "...",
+                onExpand: () =>
+                  setExpanded({ ...expanded, [item]: !expanded[item] }),
+              }}
+              style={{ flex: 1, color: "#65a30d" }}
+            >
+              {item}
+            </Typography.Paragraph>
+          </List.Item>
         )}
       />
 
