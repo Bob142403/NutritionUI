@@ -223,14 +223,18 @@ export const FinishPage = ({}: {}) => {
           <List.Item style={{ justifyContent: "flex-start" }}>
             <Typography.Paragraph
               ellipsis={{
-                rows: 1,
+                rows: 2,
 
                 expandable: true,
                 symbol: "...",
                 onExpand: () =>
                   setExpanded({ ...expanded, [item]: !expanded[item] }),
               }}
-              style={{ flex: 1, color: "#65a30d" }}
+              style={{
+                flex: 1,
+                color: "#65a30d",
+                whiteSpace: "normal",
+              }}
             >
               {item}
             </Typography.Paragraph>
