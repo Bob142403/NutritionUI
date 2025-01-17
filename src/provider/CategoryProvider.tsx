@@ -49,9 +49,11 @@ export const concatCategory = (
 export const CategoryContext = createContext<{
   category: CategoryContextType;
   setCategory: (newCategory: CategoryContextType) => void;
+  reset: () => void;
 }>({
   category: defaultCategory,
   setCategory() {},
+  reset() {},
 });
 
 export const CategoryProvider = ({
@@ -59,7 +61,7 @@ export const CategoryProvider = ({
 }: {
   children: React.JSX.Element;
 }) => {
-  const [category, setCategory] =
+  const [category, setCategory1] =
     useState<CategoryContextType>(defaultCategory);
 
   return (
@@ -67,7 +69,10 @@ export const CategoryProvider = ({
       value={{
         category,
         setCategory: (newCategory: CategoryContextType) => {
-          setCategory(concatCategory(category, newCategory));
+          setCategory1(concatCategory(category, newCategory));
+        },
+        reset: () => {
+          setCategory1(defaultCategory);
         },
       }}
     >

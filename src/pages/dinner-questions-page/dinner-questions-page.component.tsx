@@ -6,7 +6,6 @@ import { dinnercategory } from "../../utils/dinnercategory";
 import {
   CategoryContext,
   concatCategory,
-  defaultCategory,
 } from "../../provider/CategoryProvider";
 import { categoryApi } from "../../api/category";
 import { NavBarContext } from "../../provider/NavBarProvider";
@@ -135,7 +134,6 @@ export const DinnerQuestionsPage = () => {
         });
 
       navigate("/finish");
-      setCategory(defaultCategory);
     }
   }
 

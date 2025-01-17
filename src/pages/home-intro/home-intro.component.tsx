@@ -4,10 +4,7 @@ import { Button, Typography } from "antd";
 
 import { language } from "../../lang/lang";
 import { NavBarContext } from "../../provider/NavBarProvider";
-import {
-  CategoryContext,
-  defaultCategory,
-} from "../../provider/CategoryProvider";
+import { CategoryContext } from "../../provider/CategoryProvider";
 
 import styles from "./home-intro.style.module.css";
 
@@ -20,13 +17,13 @@ export const HomeIntro = () => {
 
   const navigate = useNavigate();
   const { lang } = useContext(NavBarContext);
-  const { setCategory } = useContext(CategoryContext);
+  const { reset } = useContext(CategoryContext);
   // ---------------------------------------------------------------------------
   // effects
   // ---------------------------------------------------------------------------
 
   useEffect(() => {
-    setCategory(defaultCategory);
+    reset();
   }, []);
 
   // ---------------------------------------------------------------------------
@@ -45,7 +42,10 @@ export const HomeIntro = () => {
       {/* --------------------------------------------------------------------------- */}
 
       <Button
-        onClick={() => navigate("/breakfast")}
+        onClick={() => {
+          reset();
+          navigate("/breakfast");
+        }}
         size="large"
         type="primary"
         disabled={!localStorage.getItem("user")}
